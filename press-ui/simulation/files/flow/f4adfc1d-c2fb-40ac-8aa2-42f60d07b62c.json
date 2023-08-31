@@ -1,0 +1,28 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "name": "MonitorsEntity / initial",
+      "id": "ebe0ddf0-2f4b-4b1b-ba5e-e4f1e8a16d66",
+      "data": {
+        "resourceName": "MonitorsEntity",
+        "resourceContent": {
+          "ActiveMonitorID": "Operator",
+          "Monitors": [
+            { "ID": "Unknown", "ClientID": "", "OpenedProcesses": [] },
+            { "ID": "Operator", "ClientID": "", "OpenedProcesses": [] }
+          ],
+          "Timestamp": "2023-08-16T14:25:33.6263363+03:00"
+        },
+        "NotificationType": "Initial"
+      },
+      "description": "Operator"
+    }
+  ],
+  "id": "f4adfc1d-c2fb-40ac-8aa2-42f60d07b62c",
+  "name": "Monitors Entity / Iinitial ",
+  "description": "Operator screen",
+  "parentTriggers": []
+}

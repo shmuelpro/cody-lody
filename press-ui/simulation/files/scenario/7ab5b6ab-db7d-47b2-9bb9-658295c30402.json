@@ -1,0 +1,1 @@
+{"name":"test-scenario","description":"test-scenario description","id":"7ab5b6ab-db7d-47b2-9bb9-658295c30402","subjectId":"b1728b01-183c-4914-9d09-eba5cf52f127","enabled":true,"signals":[{"id":"3e194cc8-d473-463c-8cfb-094e153ea5e5","host":"localhost:8100","resource":"BlanketReplacementEntity","action":"subscribe"}]}

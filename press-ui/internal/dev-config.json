@@ -1,0 +1,38 @@
+{
+	"simulation":{"filesLocation":"simulation"},
+	"simulationMode":"Headless",
+	"HOSTS_URL":{
+    "hp-press-api": {
+        "activeURL": "http://localhost:8100",
+        "simulationEnabled": true
+    },
+    "hp-em-api": {
+        "activeURL": "/elementmanager",
+        "simulationEnabled": true
+    },
+    "hp-device-api": {
+        "activeURL": "/displaydevice",
+        "simulationEnabled": true
+    },
+    "hp-backup-and-restore-api": {
+        "activeURL": "/backuprestore",
+        "simulationEnabled": true
+    },
+    "installation-api": {
+        "activeURL": "",
+        "simulationEnabled": true
+    },
+    "installer": {
+        "activeURL": "/installer",
+        "simulationEnabled": true
+    },
+    "hp-localization": {
+        "activeURL": "",
+        "simulationEnabled": true
+    },
+    "hp-press-configuration-api": {
+        "activeURL": "/pressconfiguration",
+        "simulationEnabled": true
+    }
+}
+}

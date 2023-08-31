@@ -1,0 +1,47 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    { "name": "example wave", "id": "44105cf3-edb4-47ad-a340-b164ae7d283e", "data": { "resourceName": "", "resourceContent": {}, "NotificationType": "Initial" } },
+    {
+      "id": "b19b0713-b064-418e-8906-c2f09326d5a6",
+      "name": "PrintQueueJobEntity/Initial",
+      "data": {
+        "resourceName": "PrintQueueJobEntity",
+        "NotificationType": "Initial",
+        "resourceContent": [
+          {
+            "JobDetails": {
+              "ListIndex": 0,
+              "Name": "Jungle",
+              "JobId": { "ID": "1" },
+              "Status": "loaded",
+              "Length": 5.57,
+              "NumberOfSheets": 1,
+              "NumberOfCopies": 12,
+              "PrintProgress": { "LastCopy": 0, "LastSheetInCopy": 0, "LastSheetInJob": 0 },
+              "NumberOfBlanketRotations": 1
+            },
+            "SubstrateName": "Paper",
+            "RemainingTimeInSeconds": 2.8564102564102565,
+            "ListsOperationsAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+            "JobAvailability": { "AvailabilityIssues": [], "IsAvailable": true, "Timestamp": "2023-08-03T17:42:29.8709457+03:00", "Key": { "SMJobKey": { "ID": "1" } } },
+            "Separations": [
+              { "ID": 0, "Name": "Black", "InkInfo": { "InkName": "Black", "IsWhite": false, "InkCabinet": { "ID": "InkStation5" } }, "SeparationStatus": "Valid" },
+              { "ID": 1, "Name": "Cyan", "InkInfo": { "InkName": "Cyan", "IsWhite": false, "InkCabinet": { "ID": "InkStation4" } }, "SeparationStatus": "Valid" },
+              { "ID": 2, "Name": "Magenta", "InkInfo": { "InkName": "Magenta", "IsWhite": false, "InkCabinet": { "ID": "InkStation3" } }, "SeparationStatus": "Valid" },
+              { "ID": 3, "Name": "Yellow", "InkInfo": { "InkName": "Yellow", "IsWhite": false, "InkCabinet": { "ID": "InkStation2" } }, "SeparationStatus": "Valid" }
+            ],
+            "Timestamp": "2023-08-03T17:42:29.9075949+03:00",
+            "Key": { "SMJobKey": { "ID": "1" } }
+          }
+        ]
+      }
+    }
+  ],
+  "id": "805021f3-3333-4101-a17b-fc2417041d73",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

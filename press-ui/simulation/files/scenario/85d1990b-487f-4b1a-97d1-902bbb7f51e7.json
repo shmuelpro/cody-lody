@@ -1,0 +1,1 @@
+{"name":"Blanket Replacement","description":"test-scenario description","id":"85d1990b-487f-4b1a-97d1-902bbb7f51e7","subjectId":"2d94195b-cef0-4612-a20e-f742196e6fba","enabled":true,"signals":[{"id":"c1d44023-b11d-4e5d-a6c3-53a69dd09c7d","host":"localhost:8100","resource":"BlanketReplacementEntity","action":"subscribe","flows":["275d619d-c58b-4442-b18d-8d706cbf84ea"]}]}

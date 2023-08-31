@@ -1,0 +1,292 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    { "name": "example wave", "id": "b519492d-54f0-493e-8706-79b8839911fa", "data": { "resourceName": "", "resourceContent": {}, "NotificationType": "Initial" } },
+    {
+      "id": "e0ba4dc5-7d47-45cd-99fa-0602ce5972d8",
+      "name": "InkStationEntity/Initial",
+      "data": {
+        "resourceName": "InkStationEntity",
+        "NotificationType": "Initial",
+        "resourceContent": [
+          {
+            "InkKey": { "ID": "UNDEFINED_INK" },
+            "InkStationState": "NotActive",
+            "InkStationStatus": "Deactivated",
+            "ProcessState": "Off",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": false, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "TwoCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position2",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [
+                  { "TubePosition": "Position1", "TubeLevel": "Empty" },
+                  { "TubePosition": "Position2", "TubeLevel": "Full" }
+                ]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T17:42:32.9338896+03:00",
+            "Key": { "ID": "InkStation1" }
+          },
+          {
+            "InkKey": { "ID": "YELLOW" },
+            "InkStationState": "Ready",
+            "InkStationStatus": "ActiveOn",
+            "ProcessState": "Ready",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": true, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "TwoCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position2",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [
+                  { "TubePosition": "Position1", "TubeLevel": "Empty" },
+                  { "TubePosition": "Position2", "TubeLevel": "Full" }
+                ]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T18:03:06.5517844+03:00",
+            "Key": { "ID": "InkStation2" }
+          },
+          {
+            "InkKey": { "ID": "MAGENTA" },
+            "InkStationState": "Ready",
+            "InkStationStatus": "ActiveOn",
+            "ProcessState": "Ready",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": true, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "TwoCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position2",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [
+                  { "TubePosition": "Position1", "TubeLevel": "Empty" },
+                  { "TubePosition": "Position2", "TubeLevel": "Full" }
+                ]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T18:03:06.6792522+03:00",
+            "Key": { "ID": "InkStation3" }
+          },
+          {
+            "InkKey": { "ID": "CYAN" },
+            "InkStationState": "Ready",
+            "InkStationStatus": "ActiveOn",
+            "ProcessState": "Ready",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": true, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "TwoCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position2",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [
+                  { "TubePosition": "Position1", "TubeLevel": "Empty" },
+                  { "TubePosition": "Position2", "TubeLevel": "Full" }
+                ]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T18:03:06.6459065+03:00",
+            "Key": { "ID": "InkStation4" }
+          },
+          {
+            "InkKey": { "ID": "BLACK" },
+            "InkStationState": "Ready",
+            "InkStationStatus": "ActiveOn",
+            "ProcessState": "Ready",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": true, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "TwoCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position2",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [
+                  { "TubePosition": "Position1", "TubeLevel": "Empty" },
+                  { "TubePosition": "Position2", "TubeLevel": "Full" }
+                ]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T18:03:06.523922+03:00",
+            "Key": { "ID": "InkStation5" }
+          },
+          {
+            "InkKey": { "ID": "FP_VIOLET" },
+            "InkStationState": "Ready",
+            "InkStationStatus": "ActiveOn",
+            "ProcessState": "Ready",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": false, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "OneCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position1",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [{ "TubePosition": "Position1", "TubeLevel": "Full" }]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T18:03:06.6165823+03:00",
+            "Key": { "ID": "InkStation6" }
+          },
+          {
+            "InkKey": { "ID": "UNDEFINED_INK" },
+            "InkStationState": "NotActive",
+            "InkStationStatus": "Deactivated",
+            "ProcessState": "Off",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": false, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "OneCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position1",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [{ "TubePosition": "Position1", "TubeLevel": "Full" }]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T17:42:32.9338625+03:00",
+            "Key": { "ID": "InkStation7" }
+          },
+          {
+            "InkKey": { "ID": "UNDEFINED_INK" },
+            "InkStationState": "NotActive",
+            "InkStationStatus": "Deactivated",
+            "ProcessState": "Off",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": false, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "OneCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position1",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [{ "TubePosition": "Position1", "TubeLevel": "Full" }]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T17:42:32.9338602+03:00",
+            "Key": { "ID": "InkStation8" }
+          },
+          {
+            "InkKey": { "ID": "UNDEFINED_INK" },
+            "InkStationState": "NotActive",
+            "InkStationStatus": "Deactivated",
+            "ProcessState": "Off",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": false, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "OneCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position1",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [{ "TubePosition": "Position1", "TubeLevel": "Full" }]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T17:42:32.9338562+03:00",
+            "Key": { "ID": "InkStation9" }
+          },
+          {
+            "InkKey": { "ID": "UNDEFINED_INK" },
+            "InkStationState": "NotActive",
+            "InkStationStatus": "Deactivated",
+            "ProcessState": "Off",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": false, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "OneCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position1",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [{ "TubePosition": "Position1", "TubeLevel": "Full" }]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T17:42:32.933854+03:00",
+            "Key": { "ID": "InkStation10" }
+          },
+          {
+            "InkKey": { "ID": "UNDEFINED_INK" },
+            "InkStationState": "NotActive",
+            "InkStationStatus": "Deactivated",
+            "ProcessState": "Off",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": false, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "OneCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position1",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [{ "TubePosition": "Position1", "TubeLevel": "Full" }]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T17:42:32.933851+03:00",
+            "Key": { "ID": "InkStation11" }
+          },
+          {
+            "InkKey": { "ID": "PREMIUM_WHITE" },
+            "InkStationState": "Ready",
+            "InkStationStatus": "ActiveOn",
+            "ProcessState": "Ready",
+            "SasInfo": {
+              "SasConfiguration": { "RevolverActive": true, "LiftActive": false, "SliderActive": false, "BackWashActive": true },
+              "RevolverInfo": {
+                "RevolverType": "TwoCup",
+                "RotateDirection": "Right",
+                "InternalPosition": "Position2",
+                "RevolverAtRotation": false,
+                "InkTubeInfos": [
+                  { "TubePosition": "Position1", "TubeLevel": "Empty" },
+                  { "TubePosition": "Position2", "TubeLevel": "Full" }
+                ]
+              },
+              "ActiveTubeNotInPlace": false,
+              "ActiveTubeReplaced": false
+            },
+            "TankInfo": { "TankConnectionStatus": "Connected", "TankNotInPlace": false },
+            "Timestamp": "2023-08-03T18:03:06.5859147+03:00",
+            "Key": { "ID": "InkStation12" }
+          }
+        ]
+      }
+    }
+  ],
+  "id": "7b01096b-3be6-4d82-a2dd-8a7a73d43b38",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

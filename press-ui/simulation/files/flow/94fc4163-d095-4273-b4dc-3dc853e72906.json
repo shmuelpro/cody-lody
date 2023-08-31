@@ -1,0 +1,40 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "name": "prepare service",
+      "id": "81a4345f-36ba-4f13-8b11-e76eb83d2948",
+      "data": {
+        "resourceName": "InterlocksStateEntity",
+        "resourceContent": {
+          "PEInterlocks": { "RearFeed": "Open", "RearMiddle": "Open", "RearExit": "Open", "Front": "Open" },
+          "PWSWebHandlingInterlocks": { "Rear": "Open", "Dancer": "Open", "Dryer": "Open", "FrontExit": "Open" },
+          "PrimingInterlocks": { "Primer": "Open" },
+          "UnwinderInterlocks": { "Dancer": "Open" },
+          "RewinderInterlocks": { "Front": "Open" },
+          "PEFrontEmsReasons": [
+            { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+            { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+          ],
+          "Timestamp": "hello"
+        },
+        "NotificationType": "Changed"
+      }
+    },
+    {
+      "name": "blanket not in place",
+      "id": "226dbf9b-f249-4c83-aede-45924e1d52ae",
+      "data": {
+        "resourceName": "BlanketEntity",
+        "resourceContent": { "T2ToT1DistanceOffset": [0, 0, 0, 0, 0, 0], "NotInPlace": true, "BlanketConditioningCounter": 0, "Timestamp": "2023-08-08T09:37:10.0979939+03:00" },
+        "NotificationType": "Changed"
+      }
+    }
+  ],
+  "id": "94fc4163-d095-4273-b4dc-3dc853e72906",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

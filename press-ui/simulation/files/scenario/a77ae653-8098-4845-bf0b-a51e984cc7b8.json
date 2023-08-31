@@ -1,0 +1,1 @@
+{"name":"test-scenario","description":"test-scenario description","id":"a77ae653-8098-4845-bf0b-a51e984cc7b8","subjectId":"45c9eba8-0a9b-40dd-ad53-3da1c2f08375","enabled":true,"signals":[{"id":"332c191a-0e37-41e9-9275-8365599e51f7","host":"hp-press-api","resource":"PEServiceMaintenanceModeOperation","action":"subscribe-all","flows":["68ffd5cc-92a2-47d5-b66d-5cf5bf615d3f"]}]}

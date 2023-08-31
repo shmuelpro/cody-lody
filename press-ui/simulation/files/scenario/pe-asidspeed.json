@@ -1,0 +1,12 @@
+{
+  "name": "Asid Speed PE",
+  "description": "test-scenario description",
+  "id": "pe-asidspeed",
+  "subjectId": "a5ecea83-d6bd-4d27-9c4b-b6204100587d",
+  "enabled": true,
+  "signals": [
+    { "id": "52c65b04-aa7b-4feb-9ced-2f3f834a33f2", "flows": ["68e5b3ff-008b-4226-bd46-dcc7ac1ae139"], "host": "hp-press-api", "resource": "AsidSpeedCalibOperation", "action": "start" },
+    { "id": "82e689fd-c52b-4762-b7bd-4a0e626442c4", "host": "hp-press-api", "resource": "AsidServiceSequenceModeOperation", "action": "start", "flows": ["4f5ce2db-618f-4200-855f-eab6aab4f264"] },
+    { "id": "f9f49da5-631e-4d92-aeec-cab3c3c5ad80", "host": "hp-press-api", "resource": "AsidServiceSequenceModeOperation", "action": "subscribe", "flows": ["ec83f92e-4111-4186-a81b-85c90a5fff58"] }
+  ]
+}

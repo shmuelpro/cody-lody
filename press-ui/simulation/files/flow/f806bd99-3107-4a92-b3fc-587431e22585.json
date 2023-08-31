@@ -1,0 +1,50 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "name": "MainPressControlEntity / Initial",
+      "id": "969d7751-d1d3-4640-9f0a-240231706c22",
+      "data": {
+        "resourceName": "MainPressControlEntity",
+        "resourceContent": {
+          "CurrentPressState": "Standby",
+          "PressStatesText": { "ID": "Standby", "LocalizationID": "SE.AppDefinitions.PressMessages.PressStates.Standby", "Data": {} },
+          "PrintBuzzerState": "Needed",
+          "GetReadyBuzzerState": "Needed",
+          "GoToStandbyBuzzerState": "NotNeeded",
+          "GoToOffBuzzerState": "NotNeeded",
+          "EndServiceBuzzerState": "Needed",
+          "PrintAvailability": {
+            "IsStartAvailable": false,
+            "StartUnavailabilityReasons": [{ "ID": "ScenarioConfigurationDisabled", "LocalizationID": "ScenarioConfigurationDisabled", "Data": { "MachineState": ["READY"] } }]
+          },
+          "PauseAvailability": { "IsStartAvailable": false, "StartUnavailabilityReasons": [] },
+          "PrintStopAvailability": {
+            "IsStartAvailable": false,
+            "StartUnavailabilityReasons": [{ "ID": "OperationNotInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationNotInProgress", "Data": {} }]
+          },
+          "GetReadyAvailability": { "IsStartAvailable": true, "StartUnavailabilityReasons": [] },
+          "GoToOffAvailability": { "IsStartAvailable": true, "StartUnavailabilityReasons": [] },
+          "GoToStandbyAvailability": {
+            "IsStartAvailable": false,
+            "StartUnavailabilityReasons": [{ "ID": "ScenarioConfigurationDisabled", "LocalizationID": "ScenarioConfigurationDisabled", "Data": { "MachineState": ["GET_READY", "READY", "SERVICE"] } }]
+          },
+          "EndServiceAvailability": {
+            "IsStartAvailable": false,
+            "StartUnavailabilityReasons": [{ "ID": "ScenarioConfigurationDisabled", "LocalizationID": "ScenarioConfigurationDisabled", "Data": { "MachineState": ["SERVICE"] } }]
+          },
+          "EaOrServiceSequenceOperationIsProgress": false,
+          "Timestamp": "2023-08-16T14:25:35.6047808+03:00"
+        },
+        "NotificationType": "Initial"
+      },
+      "description": "MainPressControlEntity/ Initial"
+    }
+  ],
+  "id": "f806bd99-3107-4a92-b3fc-587431e22585",
+  "name": "main controller initial state",
+  "description": "Standby",
+  "parentTriggers": []
+}

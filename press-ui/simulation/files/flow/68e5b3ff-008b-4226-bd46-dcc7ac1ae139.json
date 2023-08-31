@@ -1,0 +1,191 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "id": "fb29ce43-637f-49fd-8337-9ddddef8256a",
+      "name": "AsidSpeedCalibOperation/Changed",
+      "data": {
+        "resourceName": "AsidSpeedCalibOperation",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "LogicalZones": [
+            "STATION_1_CR_ZONE",
+            "STATION_2_CR_ZONE",
+            "STATION_3_CR_ZONE",
+            "STATION_4_CR_ZONE",
+            "STATION_5_CR_ZONE",
+            "STATION_6_CR_ZONE",
+            "STATION_1_BID_A_ZONE",
+            "STATION_2_BID_A_ZONE",
+            "STATION_3_BID_A_ZONE",
+            "STATION_4_BID_A_ZONE",
+            "STATION_5_BID_A_ZONE",
+            "STATION_6_BID_A_ZONE",
+            "STATION_1_BID_B_ZONE",
+            "STATION_2_BID_B_ZONE",
+            "STATION_3_BID_B_ZONE",
+            "STATION_4_BID_B_ZONE",
+            "STATION_5_BID_B_ZONE",
+            "STATION_6_BID_B_ZONE",
+            "STATION_1_CS_ZONE",
+            "STATION_2_CS_ZONE",
+            "STATION_3_CS_ZONE",
+            "STATION_4_CS_ZONE",
+            "STATION_5_CS_ZONE",
+            "STATION_6_CS_ZONE",
+            "STATION_1_LPH_ENG_ZONE",
+            "STATION_2_LPH_ENG_ZONE",
+            "STATION_3_LPH_ENG_ZONE",
+            "STATION_4_LPH_ENG_ZONE",
+            "STATION_5_LPH_ENG_ZONE",
+            "STATION_6_LPH_ENG_ZONE",
+            "STATION_1_ASID_ZONE",
+            "STATION_2_ASID_ZONE",
+            "STATION_3_ASID_ZONE",
+            "STATION_4_ASID_ZONE",
+            "STATION_5_ASID_ZONE",
+            "STATION_6_ASID_ZONE",
+            "CVC_ZONE",
+            "BKT_HNDL_ZONE",
+            "BKT_TEMP_ZONE",
+            "BKT_STIR_ZONE"
+          ],
+          "Errors": [],
+          "StartAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "StopAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationStarting", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationStarting", "Data": {} }]
+          },
+          "State": "InProgress"
+        }
+      }
+    },
+    {
+      "id": "4a49a68a-b6f2-4391-a243-403f9d4d23b7",
+      "name": "AsidSpeedCalibOperation/Changed",
+      "data": {
+        "resourceName": "AsidSpeedCalibOperation",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "LogicalZones": [
+            "STATION_1_CR_ZONE",
+            "STATION_2_CR_ZONE",
+            "STATION_3_CR_ZONE",
+            "STATION_4_CR_ZONE",
+            "STATION_5_CR_ZONE",
+            "STATION_6_CR_ZONE",
+            "STATION_1_BID_A_ZONE",
+            "STATION_2_BID_A_ZONE",
+            "STATION_3_BID_A_ZONE",
+            "STATION_4_BID_A_ZONE",
+            "STATION_5_BID_A_ZONE",
+            "STATION_6_BID_A_ZONE",
+            "STATION_1_BID_B_ZONE",
+            "STATION_2_BID_B_ZONE",
+            "STATION_3_BID_B_ZONE",
+            "STATION_4_BID_B_ZONE",
+            "STATION_5_BID_B_ZONE",
+            "STATION_6_BID_B_ZONE",
+            "STATION_1_CS_ZONE",
+            "STATION_2_CS_ZONE",
+            "STATION_3_CS_ZONE",
+            "STATION_4_CS_ZONE",
+            "STATION_5_CS_ZONE",
+            "STATION_6_CS_ZONE",
+            "STATION_1_LPH_ENG_ZONE",
+            "STATION_2_LPH_ENG_ZONE",
+            "STATION_3_LPH_ENG_ZONE",
+            "STATION_4_LPH_ENG_ZONE",
+            "STATION_5_LPH_ENG_ZONE",
+            "STATION_6_LPH_ENG_ZONE",
+            "STATION_1_ASID_ZONE",
+            "STATION_2_ASID_ZONE",
+            "STATION_3_ASID_ZONE",
+            "STATION_4_ASID_ZONE",
+            "STATION_5_ASID_ZONE",
+            "STATION_6_ASID_ZONE",
+            "CVC_ZONE",
+            "BKT_HNDL_ZONE",
+            "BKT_TEMP_ZONE",
+            "BKT_STIR_ZONE"
+          ],
+          "Errors": [],
+          "StartAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "StopAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "State": "InProgress"
+        }
+      }
+    },
+    {
+      "id": "52d0be11-0daa-4194-ab09-d900f7d30d04",
+      "name": "AsidSpeedCalibOperation/Changed",
+      "data": {
+        "resourceName": "AsidSpeedCalibOperation",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "LogicalZones": [
+            "STATION_1_CR_ZONE",
+            "STATION_2_CR_ZONE",
+            "STATION_3_CR_ZONE",
+            "STATION_4_CR_ZONE",
+            "STATION_5_CR_ZONE",
+            "STATION_6_CR_ZONE",
+            "STATION_1_BID_A_ZONE",
+            "STATION_2_BID_A_ZONE",
+            "STATION_3_BID_A_ZONE",
+            "STATION_4_BID_A_ZONE",
+            "STATION_5_BID_A_ZONE",
+            "STATION_6_BID_A_ZONE",
+            "STATION_1_BID_B_ZONE",
+            "STATION_2_BID_B_ZONE",
+            "STATION_3_BID_B_ZONE",
+            "STATION_4_BID_B_ZONE",
+            "STATION_5_BID_B_ZONE",
+            "STATION_6_BID_B_ZONE",
+            "STATION_1_CS_ZONE",
+            "STATION_2_CS_ZONE",
+            "STATION_3_CS_ZONE",
+            "STATION_4_CS_ZONE",
+            "STATION_5_CS_ZONE",
+            "STATION_6_CS_ZONE",
+            "STATION_1_LPH_ENG_ZONE",
+            "STATION_2_LPH_ENG_ZONE",
+            "STATION_3_LPH_ENG_ZONE",
+            "STATION_4_LPH_ENG_ZONE",
+            "STATION_5_LPH_ENG_ZONE",
+            "STATION_6_LPH_ENG_ZONE",
+            "STATION_1_ASID_ZONE",
+            "STATION_2_ASID_ZONE",
+            "STATION_3_ASID_ZONE",
+            "STATION_4_ASID_ZONE",
+            "STATION_5_ASID_ZONE",
+            "STATION_6_ASID_ZONE",
+            "CVC_ZONE",
+            "BKT_HNDL_ZONE",
+            "BKT_TEMP_ZONE",
+            "BKT_STIR_ZONE"
+          ],
+          "Errors": [],
+          "StartAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "StopAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationNotInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationNotInProgress", "Data": {} }]
+          },
+          "State": "Succeeded"
+        }
+      }
+    }
+  ],
+  "id": "68e5b3ff-008b-4226-bd46-dcc7ac1ae139",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

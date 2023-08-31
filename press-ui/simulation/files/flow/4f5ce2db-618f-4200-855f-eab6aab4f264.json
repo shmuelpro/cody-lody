@@ -1,0 +1,467 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "id": "4349449e-f0aa-4aa3-a8c3-a9eb9f1e2eb7",
+      "name": "AsidServiceSequenceModeOperation/Changed",
+      "data": {
+        "resourceName": "AsidServiceSequenceModeOperation",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "ChainedLogicalZonesParentOperationDummy": false,
+          "IsReady": false,
+          "CalibrationState": "OperationInProgress",
+          "CalibrationResult": { "Status": "None", "ResultMessages": [] },
+          "CommitAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CommitState": "Idle",
+          "CancelAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CancelState": "Idle",
+          "CalibrationId": "f40d05de-eec3-4d73-8c88-e39b62f2b7d5",
+          "ScopeId": "5de4aa76-e6ea-4bb7-bff1-e0cb543d27d7",
+          "Stages": [
+            { "Name": { "ID": "ServiceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.ServiceChained", "Data": {} }, "Status": "NotStarted" },
+            { "Name": { "ID": "SequenceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.SequenceChained", "Data": {} }, "Status": "NotStarted" }
+          ],
+          "LogicalZones": [
+            "STATION_1_CR_ZONE",
+            "STATION_2_CR_ZONE",
+            "STATION_3_CR_ZONE",
+            "STATION_4_CR_ZONE",
+            "STATION_5_CR_ZONE",
+            "STATION_6_CR_ZONE",
+            "STATION_1_BID_A_ZONE",
+            "STATION_2_BID_A_ZONE",
+            "STATION_3_BID_A_ZONE",
+            "STATION_4_BID_A_ZONE",
+            "STATION_5_BID_A_ZONE",
+            "STATION_6_BID_A_ZONE",
+            "STATION_1_BID_B_ZONE",
+            "STATION_2_BID_B_ZONE",
+            "STATION_3_BID_B_ZONE",
+            "STATION_4_BID_B_ZONE",
+            "STATION_5_BID_B_ZONE",
+            "STATION_6_BID_B_ZONE",
+            "STATION_1_CS_ZONE",
+            "STATION_2_CS_ZONE",
+            "STATION_3_CS_ZONE",
+            "STATION_4_CS_ZONE",
+            "STATION_5_CS_ZONE",
+            "STATION_6_CS_ZONE",
+            "STATION_1_LPH_ENG_ZONE",
+            "STATION_2_LPH_ENG_ZONE",
+            "STATION_3_LPH_ENG_ZONE",
+            "STATION_4_LPH_ENG_ZONE",
+            "STATION_5_LPH_ENG_ZONE",
+            "STATION_6_LPH_ENG_ZONE",
+            "STATION_1_ASID_ZONE",
+            "STATION_2_ASID_ZONE",
+            "STATION_3_ASID_ZONE",
+            "STATION_4_ASID_ZONE",
+            "STATION_5_ASID_ZONE",
+            "STATION_6_ASID_ZONE",
+            "CVC_ZONE",
+            "BKT_HNDL_ZONE",
+            "BKT_TEMP_ZONE",
+            "BKT_STIR_ZONE"
+          ],
+          "CalibrationOperationDummy": false,
+          "Errors": [],
+          "StartAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "StopAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "State": "InProgress"
+        }
+      }
+    },
+    {
+      "id": "1e85fd3f-904d-45ad-8a59-6400fae6d968",
+      "name": "AsidServiceSequenceModeOperation/Changed",
+      "data": {
+        "resourceName": "AsidServiceSequenceModeOperation",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "ChainedLogicalZonesParentOperationDummy": false,
+          "IsReady": false,
+          "CalibrationState": "OperationInProgress",
+          "CalibrationResult": { "Status": "None", "ResultMessages": [] },
+          "CommitAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CommitState": "Idle",
+          "CancelAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CancelState": "Idle",
+          "CalibrationId": "f40d05de-eec3-4d73-8c88-e39b62f2b7d5",
+          "ScopeId": "5de4aa76-e6ea-4bb7-bff1-e0cb543d27d7",
+          "Stages": [
+            { "Name": { "ID": "ServiceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.ServiceChained", "Data": {} }, "Status": "InProgress" },
+            { "Name": { "ID": "SequenceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.SequenceChained", "Data": {} }, "Status": "NotStarted" }
+          ],
+          "LogicalZones": [
+            "STATION_1_CR_ZONE",
+            "STATION_2_CR_ZONE",
+            "STATION_3_CR_ZONE",
+            "STATION_4_CR_ZONE",
+            "STATION_5_CR_ZONE",
+            "STATION_6_CR_ZONE",
+            "STATION_1_BID_A_ZONE",
+            "STATION_2_BID_A_ZONE",
+            "STATION_3_BID_A_ZONE",
+            "STATION_4_BID_A_ZONE",
+            "STATION_5_BID_A_ZONE",
+            "STATION_6_BID_A_ZONE",
+            "STATION_1_BID_B_ZONE",
+            "STATION_2_BID_B_ZONE",
+            "STATION_3_BID_B_ZONE",
+            "STATION_4_BID_B_ZONE",
+            "STATION_5_BID_B_ZONE",
+            "STATION_6_BID_B_ZONE",
+            "STATION_1_CS_ZONE",
+            "STATION_2_CS_ZONE",
+            "STATION_3_CS_ZONE",
+            "STATION_4_CS_ZONE",
+            "STATION_5_CS_ZONE",
+            "STATION_6_CS_ZONE",
+            "STATION_1_LPH_ENG_ZONE",
+            "STATION_2_LPH_ENG_ZONE",
+            "STATION_3_LPH_ENG_ZONE",
+            "STATION_4_LPH_ENG_ZONE",
+            "STATION_5_LPH_ENG_ZONE",
+            "STATION_6_LPH_ENG_ZONE",
+            "STATION_1_ASID_ZONE",
+            "STATION_2_ASID_ZONE",
+            "STATION_3_ASID_ZONE",
+            "STATION_4_ASID_ZONE",
+            "STATION_5_ASID_ZONE",
+            "STATION_6_ASID_ZONE",
+            "CVC_ZONE",
+            "BKT_HNDL_ZONE",
+            "BKT_TEMP_ZONE",
+            "BKT_STIR_ZONE"
+          ],
+          "CalibrationOperationDummy": false,
+          "Errors": [],
+          "StartAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "StopAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "State": "InProgress"
+        }
+      }
+    },
+    {
+      "id": "35df5565-a61c-4242-8656-c4315dfe62a0",
+      "name": "AsidServiceSequenceModeOperation/Changed",
+      "data": {
+        "resourceName": "AsidServiceSequenceModeOperation",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "ChainedLogicalZonesParentOperationDummy": false,
+          "IsReady": false,
+          "CalibrationState": "OperationInProgress",
+          "CalibrationResult": { "Status": "None", "ResultMessages": [] },
+          "CommitAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CommitState": "Idle",
+          "CancelAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CancelState": "Idle",
+          "CalibrationId": "f40d05de-eec3-4d73-8c88-e39b62f2b7d5",
+          "ScopeId": "5de4aa76-e6ea-4bb7-bff1-e0cb543d27d7",
+          "Stages": [
+            { "Name": { "ID": "ServiceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.ServiceChained", "Data": {} }, "Status": "Succeeded" },
+            { "Name": { "ID": "SequenceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.SequenceChained", "Data": {} }, "Status": "NotStarted" }
+          ],
+          "LogicalZones": [
+            "STATION_1_CR_ZONE",
+            "STATION_2_CR_ZONE",
+            "STATION_3_CR_ZONE",
+            "STATION_4_CR_ZONE",
+            "STATION_5_CR_ZONE",
+            "STATION_6_CR_ZONE",
+            "STATION_1_BID_A_ZONE",
+            "STATION_2_BID_A_ZONE",
+            "STATION_3_BID_A_ZONE",
+            "STATION_4_BID_A_ZONE",
+            "STATION_5_BID_A_ZONE",
+            "STATION_6_BID_A_ZONE",
+            "STATION_1_BID_B_ZONE",
+            "STATION_2_BID_B_ZONE",
+            "STATION_3_BID_B_ZONE",
+            "STATION_4_BID_B_ZONE",
+            "STATION_5_BID_B_ZONE",
+            "STATION_6_BID_B_ZONE",
+            "STATION_1_CS_ZONE",
+            "STATION_2_CS_ZONE",
+            "STATION_3_CS_ZONE",
+            "STATION_4_CS_ZONE",
+            "STATION_5_CS_ZONE",
+            "STATION_6_CS_ZONE",
+            "STATION_1_LPH_ENG_ZONE",
+            "STATION_2_LPH_ENG_ZONE",
+            "STATION_3_LPH_ENG_ZONE",
+            "STATION_4_LPH_ENG_ZONE",
+            "STATION_5_LPH_ENG_ZONE",
+            "STATION_6_LPH_ENG_ZONE",
+            "STATION_1_ASID_ZONE",
+            "STATION_2_ASID_ZONE",
+            "STATION_3_ASID_ZONE",
+            "STATION_4_ASID_ZONE",
+            "STATION_5_ASID_ZONE",
+            "STATION_6_ASID_ZONE",
+            "CVC_ZONE",
+            "BKT_HNDL_ZONE",
+            "BKT_TEMP_ZONE",
+            "BKT_STIR_ZONE"
+          ],
+          "CalibrationOperationDummy": false,
+          "Errors": [],
+          "StartAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "StopAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "State": "InProgress"
+        }
+      }
+    },
+    {
+      "id": "ab105edc-6618-4967-9203-1f6e5e0ec5d0",
+      "name": "AsidServiceSequenceModeOperation/Changed",
+      "data": {
+        "resourceName": "AsidServiceSequenceModeOperation",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "ChainedLogicalZonesParentOperationDummy": false,
+          "IsReady": false,
+          "CalibrationState": "OperationInProgress",
+          "CalibrationResult": { "Status": "None", "ResultMessages": [] },
+          "CommitAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CommitState": "Idle",
+          "CancelAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CancelState": "Idle",
+          "CalibrationId": "f40d05de-eec3-4d73-8c88-e39b62f2b7d5",
+          "ScopeId": "5de4aa76-e6ea-4bb7-bff1-e0cb543d27d7",
+          "Stages": [
+            { "Name": { "ID": "ServiceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.ServiceChained", "Data": {} }, "Status": "Succeeded" },
+            { "Name": { "ID": "SequenceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.SequenceChained", "Data": {} }, "Status": "NotStarted" }
+          ],
+          "LogicalZones": [
+            "STATION_1_CR_ZONE",
+            "STATION_2_CR_ZONE",
+            "STATION_3_CR_ZONE",
+            "STATION_4_CR_ZONE",
+            "STATION_5_CR_ZONE",
+            "STATION_6_CR_ZONE",
+            "STATION_1_BID_A_ZONE",
+            "STATION_2_BID_A_ZONE",
+            "STATION_3_BID_A_ZONE",
+            "STATION_4_BID_A_ZONE",
+            "STATION_5_BID_A_ZONE",
+            "STATION_6_BID_A_ZONE",
+            "STATION_1_BID_B_ZONE",
+            "STATION_2_BID_B_ZONE",
+            "STATION_3_BID_B_ZONE",
+            "STATION_4_BID_B_ZONE",
+            "STATION_5_BID_B_ZONE",
+            "STATION_6_BID_B_ZONE",
+            "STATION_1_CS_ZONE",
+            "STATION_2_CS_ZONE",
+            "STATION_3_CS_ZONE",
+            "STATION_4_CS_ZONE",
+            "STATION_5_CS_ZONE",
+            "STATION_6_CS_ZONE",
+            "STATION_1_LPH_ENG_ZONE",
+            "STATION_2_LPH_ENG_ZONE",
+            "STATION_3_LPH_ENG_ZONE",
+            "STATION_4_LPH_ENG_ZONE",
+            "STATION_5_LPH_ENG_ZONE",
+            "STATION_6_LPH_ENG_ZONE",
+            "STATION_1_ASID_ZONE",
+            "STATION_2_ASID_ZONE",
+            "STATION_3_ASID_ZONE",
+            "STATION_4_ASID_ZONE",
+            "STATION_5_ASID_ZONE",
+            "STATION_6_ASID_ZONE",
+            "CVC_ZONE",
+            "BKT_HNDL_ZONE",
+            "BKT_TEMP_ZONE",
+            "BKT_STIR_ZONE"
+          ],
+          "CalibrationOperationDummy": false,
+          "Errors": [],
+          "StartAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "StopAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "State": "InProgress"
+        }
+      }
+    },
+    {
+      "id": "3b80a142-6350-4067-9ff4-66491fae45ee",
+      "name": "AsidServiceSequenceModeOperation/Changed",
+      "data": {
+        "resourceName": "AsidServiceSequenceModeOperation",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "ChainedLogicalZonesParentOperationDummy": false,
+          "IsReady": true,
+          "CalibrationState": "OperationCompleted",
+          "CalibrationResult": { "Status": "Succeeded", "ResultMessages": [] },
+          "CommitAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "CommitState": "Idle",
+          "CancelAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "CancelState": "Idle",
+          "CalibrationId": "f40d05de-eec3-4d73-8c88-e39b62f2b7d5",
+          "ScopeId": "5de4aa76-e6ea-4bb7-bff1-e0cb543d27d7",
+          "Stages": [
+            { "Name": { "ID": "ServiceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.ServiceChained", "Data": {} }, "Status": "Succeeded" },
+            { "Name": { "ID": "SequenceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.SequenceChained", "Data": {} }, "Status": "Succeeded" }
+          ],
+          "LogicalZones": [
+            "STATION_1_CR_ZONE",
+            "STATION_2_CR_ZONE",
+            "STATION_3_CR_ZONE",
+            "STATION_4_CR_ZONE",
+            "STATION_5_CR_ZONE",
+            "STATION_6_CR_ZONE",
+            "STATION_1_BID_A_ZONE",
+            "STATION_2_BID_A_ZONE",
+            "STATION_3_BID_A_ZONE",
+            "STATION_4_BID_A_ZONE",
+            "STATION_5_BID_A_ZONE",
+            "STATION_6_BID_A_ZONE",
+            "STATION_1_BID_B_ZONE",
+            "STATION_2_BID_B_ZONE",
+            "STATION_3_BID_B_ZONE",
+            "STATION_4_BID_B_ZONE",
+            "STATION_5_BID_B_ZONE",
+            "STATION_6_BID_B_ZONE",
+            "STATION_1_CS_ZONE",
+            "STATION_2_CS_ZONE",
+            "STATION_3_CS_ZONE",
+            "STATION_4_CS_ZONE",
+            "STATION_5_CS_ZONE",
+            "STATION_6_CS_ZONE",
+            "STATION_1_LPH_ENG_ZONE",
+            "STATION_2_LPH_ENG_ZONE",
+            "STATION_3_LPH_ENG_ZONE",
+            "STATION_4_LPH_ENG_ZONE",
+            "STATION_5_LPH_ENG_ZONE",
+            "STATION_6_LPH_ENG_ZONE",
+            "STATION_1_ASID_ZONE",
+            "STATION_2_ASID_ZONE",
+            "STATION_3_ASID_ZONE",
+            "STATION_4_ASID_ZONE",
+            "STATION_5_ASID_ZONE",
+            "STATION_6_ASID_ZONE",
+            "CVC_ZONE",
+            "BKT_HNDL_ZONE",
+            "BKT_TEMP_ZONE",
+            "BKT_STIR_ZONE"
+          ],
+          "CalibrationOperationDummy": false,
+          "Errors": [],
+          "StartAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "PressIsAlreadyAtRequiredState", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.PressIsAlreadyAtRequiredState", "Data": {} }]
+          },
+          "StopAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationNotInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationNotInProgress", "Data": {} }]
+          },
+          "State": "Succeeded"
+        }
+      }
+    },
+    {
+      "id": "3266b4ce-43ad-452c-b3d8-f144c5e9bf40",
+      "name": "AsidSpeedCalibOperation/Changed",
+      "data": {
+        "resourceName": "AsidSpeedCalibOperation",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "LogicalZones": [
+            "STATION_1_CR_ZONE",
+            "STATION_2_CR_ZONE",
+            "STATION_3_CR_ZONE",
+            "STATION_4_CR_ZONE",
+            "STATION_5_CR_ZONE",
+            "STATION_6_CR_ZONE",
+            "STATION_1_BID_A_ZONE",
+            "STATION_2_BID_A_ZONE",
+            "STATION_3_BID_A_ZONE",
+            "STATION_4_BID_A_ZONE",
+            "STATION_5_BID_A_ZONE",
+            "STATION_6_BID_A_ZONE",
+            "STATION_1_BID_B_ZONE",
+            "STATION_2_BID_B_ZONE",
+            "STATION_3_BID_B_ZONE",
+            "STATION_4_BID_B_ZONE",
+            "STATION_5_BID_B_ZONE",
+            "STATION_6_BID_B_ZONE",
+            "STATION_1_CS_ZONE",
+            "STATION_2_CS_ZONE",
+            "STATION_3_CS_ZONE",
+            "STATION_4_CS_ZONE",
+            "STATION_5_CS_ZONE",
+            "STATION_6_CS_ZONE",
+            "STATION_1_LPH_ENG_ZONE",
+            "STATION_2_LPH_ENG_ZONE",
+            "STATION_3_LPH_ENG_ZONE",
+            "STATION_4_LPH_ENG_ZONE",
+            "STATION_5_LPH_ENG_ZONE",
+            "STATION_6_LPH_ENG_ZONE",
+            "STATION_1_ASID_ZONE",
+            "STATION_2_ASID_ZONE",
+            "STATION_3_ASID_ZONE",
+            "STATION_4_ASID_ZONE",
+            "STATION_5_ASID_ZONE",
+            "STATION_6_ASID_ZONE",
+            "CVC_ZONE",
+            "BKT_HNDL_ZONE",
+            "BKT_TEMP_ZONE",
+            "BKT_STIR_ZONE"
+          ],
+          "Errors": [],
+          "StartAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "StopAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationNotInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationNotInProgress", "Data": {} }]
+          },
+          "State": "Idle"
+        }
+      }
+    }
+  ],
+  "id": "4f5ce2db-618f-4200-855f-eab6aab4f264",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

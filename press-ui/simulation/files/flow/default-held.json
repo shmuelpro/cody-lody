@@ -1,0 +1,46 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 2000,
+  "waves": [
+    {
+      "id": "b721902f-2fb7-4c01-9372-b0f8bbbdd0cf",
+      "name": "HeldJobEntity/Initial",
+      "data": {
+        "resourceName": "HeldJobEntity",
+        "NotificationType": "Initial",
+        "resourceContent": [
+          {
+            "JobDetails": {
+              "ListIndex": 0,
+              "Name": "CATP_4C",
+              "JobId": { "ID": "3" },
+              "Status": "loaded",
+              "Length": 5.24,
+              "NumberOfSheets": 1,
+              "NumberOfCopies": 12,
+              "PrintProgress": { "LastCopy": 0, "LastSheetInCopy": 0, "LastSheetInJob": 0 },
+              "NumberOfBlanketRotations": 1
+            },
+            "SubstrateID": { "ID": "c00ca4ae-c842-4a34-8e8a-50ed10c53637" },
+            "SubstrateName": "Paper",
+            "JobAvailability": { "AvailabilityIssues": [], "IsAvailable": true, "Timestamp": "2023-08-03T17:42:29.8706233+03:00", "Key": { "SMJobKey": { "ID": "3" } } },
+            "Separations": [
+              { "ID": 0, "Name": "Black", "InkInfo": { "InkName": "Black", "IsWhite": false, "InkCabinet": { "ID": "InkStation5" } }, "SeparationStatus": "Valid" },
+              { "ID": 1, "Name": "Cyan", "InkInfo": { "InkName": "Cyan", "IsWhite": false, "InkCabinet": { "ID": "InkStation4" } }, "SeparationStatus": "Valid" },
+              { "ID": 2, "Name": "Magenta", "InkInfo": { "InkName": "Magenta", "IsWhite": false, "InkCabinet": { "ID": "InkStation3" } }, "SeparationStatus": "Valid" },
+              { "ID": 3, "Name": "Yellow", "InkInfo": { "InkName": "Yellow", "IsWhite": false, "InkCabinet": { "ID": "InkStation2" } }, "SeparationStatus": "Valid" }
+            ],
+            "RemainingTimeInSeconds": 2.6871794871794874,
+            "Timestamp": "2023-08-03T17:42:29.9078661+03:00",
+            "Key": { "SMJobKey": { "ID": "3" } }
+          }
+        ]
+      }
+    }
+  ],
+  "id": "default-held",
+  "name": "sends default held entity",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

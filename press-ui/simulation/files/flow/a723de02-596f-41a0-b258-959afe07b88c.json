@@ -1,0 +1,27 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "name": "BlanketAreaEntity / Initial",
+      "id": "087455b7-2bc7-47ef-8a13-dab7da799c39",
+      "data": {
+        "resourceName": "BlanketAreaEntity",
+        "resourceContent": {
+          "GroupHeader": { "Status": "None", "PressMessage": { "ID": "hello", "LocalizationID": "hello", "Data": {} } },
+          "StickyRollerWasteState": "RegularDisplay",
+          "BlanketTemperature": { "Actual": 5, "SetPoint": 5, "Min": 5, "Max": 5 },
+          "ShowSetPoint": true,
+          "ShowMinBoundary": true,
+          "Timestamp": "hello"
+        },
+        "NotificationType": "Initial"
+      }
+    }
+  ],
+  "id": "a723de02-596f-41a0-b258-959afe07b88c",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

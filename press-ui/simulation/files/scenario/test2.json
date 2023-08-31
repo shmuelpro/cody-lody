@@ -1,0 +1,25 @@
+{
+  "id": "test",
+  "name": "tesdffff",
+  "description": "Who ha wha ffffexs",
+  "subjectId": "he",
+  "signals": [
+    {
+      "id": "test-signal",
+      "host": "hp-press-api",
+      "action": "is-stopped-by-operator",
+      "resource": "GetReadyOperation",
+      "response": { "hr": "eeefeeeeeteteeeteeerrrrr" },
+      "flows": ["e03c48e1-a21e-4c28-b02a-f18bcaa009d1", "color-calibration", "367fa3dd-5cda-4eae-85ea-1ec4e6090c92", "7535c3b6-5284-4b44-8f11-264da0898737"],
+      "name": "ttryh45hwww"
+    },
+    {
+      "id": "50ad3d98-49f9-49a6-be94-92b90a7e7ab9",
+      "host": "hp-press-api",
+      "resource": "BuzzerableBlanketConditioningCalibrationFlowOperation",
+      "action": "cancel",
+      "name": "signal2",
+      "flows": ["e223cb3b-ad45-4380-9fd9-857a0c893bc5", "9fd7ffd2-353d-442a-a7af-7ac8f00fc97c"]
+    }
+  ]
+}

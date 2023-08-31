@@ -1,0 +1,11 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [],
+  "id": "6457a341-d7af-48c5-b99b-a6c5a6491c91",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": [],
+  "dateCreated": "1692184623753"
+}

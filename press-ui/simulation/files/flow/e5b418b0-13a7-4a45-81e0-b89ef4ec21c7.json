@@ -1,0 +1,153 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "name": "PrintingEngine / Initial",
+      "id": "b460bba6-ab92-4acd-a794-296fac73821d",
+      "data": {
+        "resourceName": "MEStationPrintingEngineEntity",
+        "resourceContent": [
+          {
+            "LeftInk": {
+              "InkStationKey": { "ID": "InkStation3" },
+              "Color": { "R": 255, "G": 0, "B": 255 },
+              "InkStationState": "ActiveOff",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "RightInk": {
+              "InkStationKey": { "ID": "InkStation8" },
+              "Color": { "R": 0, "G": 0, "B": 0 },
+              "InkStationState": "Deactivated",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "MEStationState": "ActiveOn",
+            "ProcessState": "Empty",
+            "Timestamp": "2023-08-06T16:23:52.7944826+03:00",
+            "Key": { "ID": "MEStation3" }
+          },
+          {
+            "LeftInk": {
+              "InkStationKey": { "ID": "InkStation6" },
+              "Color": { "R": 138, "G": 43, "B": 226 },
+              "InkStationState": "ActiveOff",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "RightInk": {
+              "InkStationKey": { "ID": "InkStation1" },
+              "Color": { "R": 0, "G": 0, "B": 0 },
+              "InkStationState": "Deactivated",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "MEStationState": "ActiveOn",
+            "ProcessState": "Empty",
+            "Timestamp": "2023-08-06T16:23:52.7941459+03:00",
+            "Key": { "ID": "MEStation1" }
+          },
+          {
+            "LeftInk": {
+              "InkStationKey": { "ID": "InkStation4" },
+              "Color": { "R": 0, "G": 255, "B": 255 },
+              "InkStationState": "ActiveOff",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "RightInk": {
+              "InkStationKey": { "ID": "InkStation9" },
+              "Color": { "R": 0, "G": 0, "B": 0 },
+              "InkStationState": "Deactivated",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "MEStationState": "ActiveOn",
+            "ProcessState": "Empty",
+            "Timestamp": "2023-08-06T16:23:52.7946009+03:00",
+            "Key": { "ID": "MEStation4" }
+          },
+          {
+            "LeftInk": {
+              "InkStationKey": { "ID": "InkStation2" },
+              "Color": { "R": 255, "G": 255, "B": 0 },
+              "InkStationState": "ActiveOff",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "RightInk": {
+              "InkStationKey": { "ID": "InkStation7" },
+              "Color": { "R": 0, "G": 0, "B": 0 },
+              "InkStationState": "Deactivated",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "MEStationState": "ActiveOn",
+            "ProcessState": "Empty",
+            "Timestamp": "2023-08-06T16:23:52.7943556+03:00",
+            "Key": { "ID": "MEStation2" }
+          },
+          {
+            "LeftInk": {
+              "InkStationKey": { "ID": "InkStation12" },
+              "Color": { "R": 255, "G": 255, "B": 255 },
+              "InkStationState": "ActiveOff",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "RightInk": {
+              "InkStationKey": { "ID": "InkStation11" },
+              "Color": { "R": 0, "G": 0, "B": 0 },
+              "InkStationState": "Deactivated",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "MEStationState": "ActiveOn",
+            "ProcessState": "Empty",
+            "Timestamp": "2023-08-06T16:23:52.7948536+03:00",
+            "Key": { "ID": "MEStation6" }
+          },
+          {
+            "LeftInk": {
+              "InkStationKey": { "ID": "InkStation5" },
+              "Color": { "R": 0, "G": 0, "B": 0 },
+              "InkStationState": "ActiveOff",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "RightInk": {
+              "InkStationKey": { "ID": "InkStation10" },
+              "Color": { "R": 0, "G": 0, "B": 0 },
+              "InkStationState": "Deactivated",
+              "NotInPlace": false,
+              "MechanicalCalibrationRequired": false,
+              "DryBidRequired": false
+            },
+            "MEStationState": "ActiveOn",
+            "ProcessState": "Empty",
+            "Timestamp": "2023-08-06T16:23:52.7947133+03:00",
+            "Key": { "ID": "MEStation5" }
+          }
+        ],
+        "NotificationType": "Initial"
+      }
+    }
+  ],
+  "id": "e5b418b0-13a7-4a45-81e0-b89ef4ec21c7",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

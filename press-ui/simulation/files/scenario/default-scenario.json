@@ -1,0 +1,241 @@
+{
+  "name": "Default Start",
+  "description": "Used to make operator take control",
+  "id": "default-scenario",
+  "subjectId": "0309f879-ad4d-4e54-8104-b60920ec3337",
+  "enabled": true,
+  "signals": [
+    { "id": "1167b67e-38b3-4cef-882f-435932655864", "flows": ["75899ac1-bd30-4938-ad3b-bb4e7eb9bf15"], "host": "hp-press-api", "resource": "InterlocksStateEntity", "action": "subscribe" },
+    { "id": "7137c8a0-916c-4cab-8abf-baa8d8896e37", "flows": ["f806bd99-3107-4a92-b3fc-587431e22585"], "host": "hp-press-api", "resource": "MainPressControlEntity", "action": "subscribe" },
+    { "id": "2ee20ff6-a807-4f82-b03c-1e507753d0b5", "flows": ["f4adfc1d-c2fb-40ac-8aa2-42f60d07b62c"], "host": "hp-press-api", "resource": "MonitorsEntity", "action": "subscribe" },
+    { "id": "908cd5e2-6f55-4dc4-99ba-d14829a7f707", "flows": ["default-held"], "host": "hp-press-api", "resource": "HeldJobEntity", "action": "subscribe-all" },
+    { "id": "c60635b0-191d-49e7-84d1-aa80759e3068", "flows": ["80827a42-2647-44bc-8b4d-844cbc62dabf"], "host": "hp-press-api", "resource": "InkEntity", "action": "subscribe-all" },
+    { "id": "e4041c3c-86bb-40b8-a5da-d4acb0a72d3d", "host": "hp-press-api", "resource": "InkStationEntity", "action": "subscribe-all", "flows": ["7b01096b-3be6-4d82-a2dd-8a7a73d43b38"] },
+    { "id": "330867a6-c140-4f23-8955-96532d2db385", "flows": ["805021f3-3333-4101-a17b-fc2417041d73"], "host": "hp-press-api", "resource": "PrintQueueJobEntity", "action": "subscribe-all" },
+    {
+      "id": "93e90948-f0a7-445d-8b27-23efd58fdaea",
+      "response": [
+        {
+          "TitleID": "PRC.Sub{Engine}_TitleID",
+          "Subsystems": [
+            { "TitleId": "PRC.Sub{Engine.Sticky_roller}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1434797+03:00", "Key": { "ID": "Engine.Sticky_roller" } },
+            {
+              "TitleId": "PRC.Sub{Engine.BID}_TitleID",
+              "Indexes": [
+                { "StationName": "BidStation1", "InkStationKey": { "ID": "InkStation1" }, "MEStationKey": { "ID": "MEStation1" }, "BidStationKey": { "ID": "BidStation1" } },
+                { "StationName": "BidStation2", "InkStationKey": { "ID": "InkStation6" }, "MEStationKey": { "ID": "MEStation1" }, "BidStationKey": { "ID": "BidStation2" } },
+                { "StationName": "BidStation3", "InkStationKey": { "ID": "InkStation7" }, "MEStationKey": { "ID": "MEStation2" }, "BidStationKey": { "ID": "BidStation3" } },
+                { "StationName": "BidStation4", "InkStationKey": { "ID": "InkStation2" }, "MEStationKey": { "ID": "MEStation2" }, "BidStationKey": { "ID": "BidStation4" } },
+                { "StationName": "BidStation5", "InkStationKey": { "ID": "InkStation8" }, "MEStationKey": { "ID": "MEStation3" }, "BidStationKey": { "ID": "BidStation5" } },
+                { "StationName": "BidStation6", "InkStationKey": { "ID": "InkStation3" }, "MEStationKey": { "ID": "MEStation3" }, "BidStationKey": { "ID": "BidStation6" } },
+                { "StationName": "BidStation7", "InkStationKey": { "ID": "InkStation9" }, "MEStationKey": { "ID": "MEStation4" }, "BidStationKey": { "ID": "BidStation7" } },
+                { "StationName": "BidStation8", "InkStationKey": { "ID": "InkStation4" }, "MEStationKey": { "ID": "MEStation4" }, "BidStationKey": { "ID": "BidStation8" } },
+                { "StationName": "BidStation9", "InkStationKey": { "ID": "InkStation10" }, "MEStationKey": { "ID": "MEStation5" }, "BidStationKey": { "ID": "BidStation9" } },
+                { "StationName": "BidStation10", "InkStationKey": { "ID": "InkStation5" }, "MEStationKey": { "ID": "MEStation5" }, "BidStationKey": { "ID": "BidStation10" } },
+                { "StationName": "BidStation11", "InkStationKey": { "ID": "InkStation11" }, "MEStationKey": { "ID": "MEStation6" }, "BidStationKey": { "ID": "BidStation11" } },
+                { "StationName": "BidStation12", "InkStationKey": { "ID": "InkStation12" }, "MEStationKey": { "ID": "MEStation6" }, "BidStationKey": { "ID": "BidStation12" } }
+              ],
+              "SubsystemIndexType": "BIDStationID",
+              "Timestamp": "2023-08-03T17:42:28.1520326+03:00",
+              "Key": { "ID": "Engine.BID" }
+            },
+            { "TitleId": "PRC.Sub{Engine.Tensioner}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1520378+03:00", "Key": { "ID": "Engine.Tensioner" } },
+            { "TitleId": "PRC.Sub{Engine.T1_roller}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.152039+03:00", "Key": { "ID": "Engine.T1_roller" } },
+            { "TitleId": "PRC.Sub{Engine.PE_feed_EC}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1520397+03:00", "Key": { "ID": "Engine.PE_feed_EC" } },
+            { "TitleId": "PRC.Sub{Engine.Safety}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1520408+03:00", "Key": { "ID": "Engine.Safety" } },
+            {
+              "TitleId": "PRC.Sub{Engine.LPH}_TitleID",
+              "Indexes": [
+                { "StationName": "MEStation1", "MEStationKey": { "ID": "MEStation1" } },
+                { "StationName": "MEStation2", "MEStationKey": { "ID": "MEStation2" } },
+                { "StationName": "MEStation3", "MEStationKey": { "ID": "MEStation3" } },
+                { "StationName": "MEStation4", "MEStationKey": { "ID": "MEStation4" } },
+                { "StationName": "MEStation5", "MEStationKey": { "ID": "MEStation5" } },
+                { "StationName": "MEStation6", "MEStationKey": { "ID": "MEStation6" } }
+              ],
+              "SubsystemIndexType": "MeStationID",
+              "Timestamp": "2023-08-03T17:42:28.1550082+03:00",
+              "Key": { "ID": "Engine.LPH" }
+            },
+            { "TitleId": "PRC.Sub{Engine.PE_exit_EC}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1550137+03:00", "Key": { "ID": "Engine.PE_exit_EC" } },
+            { "TitleId": "PRC.Sub{Engine.BDV}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1550144+03:00", "Key": { "ID": "Engine.BDV" } },
+            { "TitleId": "PRC.Sub{Engine.EH_lamps}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1550155+03:00", "Key": { "ID": "Engine.EH_lamps" } },
+            {
+              "TitleId": "PRC.Sub{Engine.aSid}_TitleID",
+              "Indexes": [
+                { "StationName": "MEStation1", "MEStationKey": { "ID": "MEStation1" } },
+                { "StationName": "MEStation2", "MEStationKey": { "ID": "MEStation2" } },
+                { "StationName": "MEStation3", "MEStationKey": { "ID": "MEStation3" } },
+                { "StationName": "MEStation4", "MEStationKey": { "ID": "MEStation4" } },
+                { "StationName": "MEStation5", "MEStationKey": { "ID": "MEStation5" } },
+                { "StationName": "MEStation6", "MEStationKey": { "ID": "MEStation6" } }
+              ],
+              "SubsystemIndexType": "MeStationID",
+              "Timestamp": "2023-08-03T17:42:28.1551224+03:00",
+              "Key": { "ID": "Engine.aSid" }
+            },
+            { "TitleId": "PRC.Sub{Engine.CVC}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.155124+03:00", "Key": { "ID": "Engine.CVC" } },
+            {
+              "TitleId": "PRC.Sub{Engine.PTE}_TitleID",
+              "Indexes": [
+                { "StationName": "MEStation1", "MEStationKey": { "ID": "MEStation1" } },
+                { "StationName": "MEStation2", "MEStationKey": { "ID": "MEStation2" } },
+                { "StationName": "MEStation3", "MEStationKey": { "ID": "MEStation3" } },
+                { "StationName": "MEStation4", "MEStationKey": { "ID": "MEStation4" } },
+                { "StationName": "MEStation5", "MEStationKey": { "ID": "MEStation5" } },
+                { "StationName": "MEStation6", "MEStationKey": { "ID": "MEStation6" } }
+              ],
+              "SubsystemIndexType": "MeStationID",
+              "Timestamp": "2023-08-03T17:42:28.1551306+03:00",
+              "Key": { "ID": "Engine.PTE" }
+            },
+            { "TitleId": "PRC.Sub{Engine.ITM_Drum}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1551314+03:00", "Key": { "ID": "Engine.ITM_Drum" } },
+            {
+              "TitleId": "PRC.Sub{Engine.CS}_TitleID",
+              "Indexes": [
+                { "StationName": "MEStation1", "MEStationKey": { "ID": "MEStation1" } },
+                { "StationName": "MEStation2", "MEStationKey": { "ID": "MEStation2" } },
+                { "StationName": "MEStation3", "MEStationKey": { "ID": "MEStation3" } },
+                { "StationName": "MEStation4", "MEStationKey": { "ID": "MEStation4" } },
+                { "StationName": "MEStation5", "MEStationKey": { "ID": "MEStation5" } },
+                { "StationName": "MEStation6", "MEStationKey": { "ID": "MEStation6" } }
+              ],
+              "SubsystemIndexType": "MeStationID",
+              "Timestamp": "2023-08-03T17:42:28.1551371+03:00",
+              "Key": { "ID": "Engine.CS" }
+            },
+            {
+              "TitleId": "PRC.Sub{Engine.CR}_TitleID",
+              "Indexes": [
+                { "StationName": "MEStation1", "MEStationKey": { "ID": "MEStation1" } },
+                { "StationName": "MEStation2", "MEStationKey": { "ID": "MEStation2" } },
+                { "StationName": "MEStation3", "MEStationKey": { "ID": "MEStation3" } },
+                { "StationName": "MEStation4", "MEStationKey": { "ID": "MEStation4" } },
+                { "StationName": "MEStation5", "MEStationKey": { "ID": "MEStation5" } },
+                { "StationName": "MEStation6", "MEStationKey": { "ID": "MEStation6" } }
+              ],
+              "SubsystemIndexType": "MeStationID",
+              "Timestamp": "2023-08-03T17:42:28.1551425+03:00",
+              "Key": { "ID": "Engine.CR" }
+            }
+          ],
+          "IconType": "Engine",
+          "Timestamp": "2023-08-03T17:42:28.3837076+03:00",
+          "Key": { "ID": "Engine" }
+        },
+        {
+          "TitleID": "PRC.Sub{IC}_TitleID",
+          "Subsystems": [
+            {
+              "TitleId": "PRC.Sub{IC.SAS}_TitleID",
+              "Indexes": [
+                { "StationName": "InkStation1", "InkStationKey": { "ID": "InkStation1" } },
+                { "StationName": "InkStation2", "InkStationKey": { "ID": "InkStation2" } },
+                { "StationName": "InkStation3", "InkStationKey": { "ID": "InkStation3" } },
+                { "StationName": "InkStation4", "InkStationKey": { "ID": "InkStation4" } },
+                { "StationName": "InkStation5", "InkStationKey": { "ID": "InkStation5" } },
+                { "StationName": "InkStation6", "InkStationKey": { "ID": "InkStation6" } },
+                { "StationName": "InkStation7", "InkStationKey": { "ID": "InkStation7" } },
+                { "StationName": "InkStation8", "InkStationKey": { "ID": "InkStation8" } },
+                { "StationName": "InkStation9", "InkStationKey": { "ID": "InkStation9" } },
+                { "StationName": "InkStation10", "InkStationKey": { "ID": "InkStation10" } },
+                { "StationName": "InkStation11", "InkStationKey": { "ID": "InkStation11" } },
+                { "StationName": "InkStation12", "InkStationKey": { "ID": "InkStation12" } }
+              ],
+              "SubsystemIndexType": "InkID",
+              "Timestamp": "2023-08-03T17:42:28.1555704+03:00",
+              "Key": { "ID": "IC.SAS" }
+            },
+            {
+              "TitleId": "PRC.Sub{IC.Ink_tank}_TitleID",
+              "Indexes": [
+                { "StationName": "InkStation1", "InkStationKey": { "ID": "InkStation1" } },
+                { "StationName": "InkStation2", "InkStationKey": { "ID": "InkStation2" } },
+                { "StationName": "InkStation3", "InkStationKey": { "ID": "InkStation3" } },
+                { "StationName": "InkStation4", "InkStationKey": { "ID": "InkStation4" } },
+                { "StationName": "InkStation5", "InkStationKey": { "ID": "InkStation5" } },
+                { "StationName": "InkStation6", "InkStationKey": { "ID": "InkStation6" } },
+                { "StationName": "InkStation7", "InkStationKey": { "ID": "InkStation7" } },
+                { "StationName": "InkStation8", "InkStationKey": { "ID": "InkStation8" } },
+                { "StationName": "InkStation9", "InkStationKey": { "ID": "InkStation9" } },
+                { "StationName": "InkStation10", "InkStationKey": { "ID": "InkStation10" } },
+                { "StationName": "InkStation11", "InkStationKey": { "ID": "InkStation11" } },
+                { "StationName": "InkStation12", "InkStationKey": { "ID": "InkStation12" } }
+              ],
+              "SubsystemIndexType": "InkID",
+              "Timestamp": "2023-08-03T17:42:28.1555826+03:00",
+              "Key": { "ID": "IC.Ink_tank" }
+            },
+            { "TitleId": "PRC.Sub{IC.Safety}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555835+03:00", "Key": { "ID": "IC.Safety" } }
+          ],
+          "IconType": "IC",
+          "Timestamp": "2023-08-03T17:42:28.3837169+03:00",
+          "Key": { "ID": "IC" }
+        },
+        {
+          "TitleID": "PRC.Sub{PWS}_TitleID",
+          "Subsystems": [
+            { "TitleId": "PRC.Sub{PWS.SPM}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555866+03:00", "Key": { "ID": "PWS.SPM" } },
+            { "TitleId": "PRC.Sub{PWS.Corona}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555874+03:00", "Key": { "ID": "PWS.Corona" } },
+            { "TitleId": "PRC.Sub{PWS.Dryer}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555881+03:00", "Key": { "ID": "PWS.Dryer" } },
+            { "TitleId": "PRC.Sub{PWS.PWS_EC}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555887+03:00", "Key": { "ID": "PWS.PWS_EC" } },
+            { "TitleId": "PRC.Sub{PWS.Priming_fluid}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555894+03:00", "Key": { "ID": "PWS.Priming_fluid" } },
+            { "TitleId": "PRC.Sub{PWS.PWS_WHS}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555902+03:00", "Key": { "ID": "PWS.PWS_WHS" } },
+            { "TitleId": "PRC.Sub{PWS.Safety}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555909+03:00", "Key": { "ID": "PWS.Safety" } },
+            { "TitleId": "PRC.Sub{PWS.ILP_WHS}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555915+03:00", "Key": { "ID": "PWS.ILP_WHS" } }
+          ],
+          "IconType": "PWS",
+          "Timestamp": "2023-08-03T17:42:28.383722+03:00",
+          "Key": { "ID": "PWS" }
+        },
+        {
+          "TitleID": "PRC.Sub{RW}_TitleID",
+          "Subsystems": [
+            { "TitleId": "PRC.Sub{RW.RW}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.155593+03:00", "Key": { "ID": "RW.RW" } },
+            { "TitleId": "PRC.Sub{RW.Safety}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555937+03:00", "Key": { "ID": "RW.Safety" } }
+          ],
+          "IconType": "Rewinder",
+          "Timestamp": "2023-08-03T17:42:28.3837268+03:00",
+          "Key": { "ID": "RW" }
+        },
+        {
+          "TitleID": "PRC.Sub{UC}_TitleID",
+          "Subsystems": [
+            { "TitleId": "PRC.Sub{UC.Safety}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555952+03:00", "Key": { "ID": "UC.Safety" } },
+            { "TitleId": "PRC.Sub{UC.Waste}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555959+03:00", "Key": { "ID": "UC.Waste" } },
+            { "TitleId": "PRC.Sub{UC.Reservoir}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555965+03:00", "Key": { "ID": "UC.Reservoir" } },
+            { "TitleId": "PRC.Sub{UC.CWS}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555975+03:00", "Key": { "ID": "UC.CWS" } },
+            { "TitleId": "PRC.Sub{UC.UC_EC}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555982+03:00", "Key": { "ID": "UC.UC_EC" } },
+            { "TitleId": "PRC.Sub{UC.LPH_cooling}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.155599+03:00", "Key": { "ID": "UC.LPH_cooling" } },
+            { "TitleId": "PRC.Sub{UC.Recycling}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1555997+03:00", "Key": { "ID": "UC.Recycling" } }
+          ],
+          "IconType": "UC",
+          "Timestamp": "2023-08-03T17:42:28.3837321+03:00",
+          "Key": { "ID": "UC" }
+        },
+        {
+          "TitleID": "PRC.Sub{UW}_TitleID",
+          "Subsystems": [
+            { "TitleId": "PRC.Sub{UW.PWS_WHS}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1556015+03:00", "Key": { "ID": "UW.PWS_WHS" } },
+            { "TitleId": "PRC.Sub{UW.UW}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1556022+03:00", "Key": { "ID": "UW.UW" } },
+            { "TitleId": "PRC.Sub{UW.Safety}_TitleID", "Indexes": [], "Timestamp": "2023-08-03T17:42:28.1556029+03:00", "Key": { "ID": "UW.Safety" } }
+          ],
+          "IconType": "Unwinder",
+          "Timestamp": "2023-08-03T17:42:28.3837366+03:00",
+          "Key": { "ID": "UW" }
+        }
+      ],
+      "host": "hp-press-api",
+      "resource": "PrcAreaEntity",
+      "action": "get-all"
+    },
+    {
+      "id": "076b0c03-22b1-44b1-8941-2e9d92c0c747",
+      "flows": ["e5b418b0-13a7-4a45-81e0-b89ef4ec21c7"],
+      "host": "hp-press-api",
+      "resource": "MEStationPrintingEngineEntity",
+      "action": "subscribe-many"
+    },
+    { "id": "18784024-064d-40fd-85f7-971d24a18d92", "host": "hp-press-api", "resource": "BlanketAreaEntity", "action": "subscribe", "flows": ["a723de02-596f-41a0-b258-959afe07b88c"] }
+  ]
+}

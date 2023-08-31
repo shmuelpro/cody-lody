@@ -1,0 +1,21 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "id": "56aa5382-10a6-4ef6-85e0-62253d308c0e",
+      "name": "SimpleCountersScreenEntity/Initial",
+      "data": {
+        "resourceName": "SimpleCountersScreenEntity",
+        "NotificationType": "Initial",
+        "resourceContent": [{ "Counters": [{ "Key": "BlanketT1EngagesPrint", "Value": { "A3Value": 0 } }], "Timestamp": "2023-08-17T10:30:40.3142367+03:00", "Key": { "ConsumableType": "Blanket" } }]
+      },
+      "customWait": "500"
+    }
+  ],
+  "id": "11c4aadf-ad7a-4d52-8c40-1b058f12be77",
+  "name": "SimpleCountersScreenEntity / initial",
+  "description": "SimpleCountersScreenEntity",
+  "parentTriggers": []
+}

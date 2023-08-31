@@ -1,0 +1,35 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "id": "f2794777-c91a-4ef6-9eb7-90bdba228324",
+      "name": "BuzzerableWashOperation/Initial",
+      "data": {
+        "resourceName": "BuzzerableWashOperation",
+        "NotificationType": "Initial",
+        "resourceContent": {
+          "Stages": [
+            { "Name": { "ID": "DrainPrimerWashStep", "LocalizationID": "SE.AppDefinitions.PressMessages.ILP.DrainPrimerWashStep", "Data": {} }, "Status": "NotStarted" },
+            { "Name": { "ID": "CleaningWashStep", "LocalizationID": "SE.AppDefinitions.PressMessages.ILP.CleaningWashStep", "Data": {} }, "Status": "NotStarted" },
+            { "Name": { "ID": "DrainingCleaningSolutionWashStep", "LocalizationID": "SE.AppDefinitions.PressMessages.ILP.DrainingCleaningSolutionWashStep", "Data": {} }, "Status": "NotStarted" }
+          ],
+          "BuzzerState": "Needed",
+          "BuzzerType": "Method1",
+          "Errors": [],
+          "StartAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "StopAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationNotInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationNotInProgress", "Data": {} }]
+          },
+          "State": "Idle"
+        }
+      }
+    }
+  ],
+  "id": "a3ff6954-8c6c-4bf7-b1f3-cf91c8a19640",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

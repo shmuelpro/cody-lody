@@ -1,0 +1,172 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "name": "Unlock InProgress",
+      "id": "c728b290-ef1b-44e3-8001-660eaf1ce77d",
+      "data": {
+        "resourceName": "PEServiceMaintenanceModeOperation",
+        "resourceContent": {
+          "DelayReason": { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+          "IsReady": true,
+          "CalibrationState": "NotStarted",
+          "CalibrationResult": {
+            "Status": "None",
+            "ResultMessages": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "CommitAvailability": {
+            "IsAvailable": true,
+            "UnavailableReasons": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "CommitState": "Idle",
+          "CancelAvailability": {
+            "IsAvailable": true,
+            "UnavailableReasons": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "CancelState": "Idle",
+          "CalibrationId": "hello",
+          "ScopeId": "hello",
+          "Errors": [
+            { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+            { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+          ],
+          "StartAvailability": {
+            "IsAvailable": true,
+            "UnavailableReasons": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "StopAvailability": {
+            "IsAvailable": true,
+            "UnavailableReasons": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "State": "InProgress",
+          "Stages": [
+            { "Name": { "ID": "hello", "LocalizationID": "hello", "Data": {} }, "Status": "NotStarted" },
+            { "Name": { "ID": "hello", "LocalizationID": "hello", "Data": {} }, "Status": "NotStarted" }
+          ],
+          "LogicalZones": ["GENERAL_ZONE", "GENERAL_ZONE"],
+          "Key": { "ID": "RegularConfig" }
+        },
+        "NotificationType": "Changed"
+      }
+    },
+    {
+      "name": "Unlock Success",
+      "id": "9f61536e-6779-4a66-89ae-42e0486b8550",
+      "data": {
+        "resourceName": "PEServiceMaintenanceModeOperation",
+        "resourceContent": {
+          "DelayReason": { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+          "IsReady": true,
+          "CalibrationState": "NotStarted",
+          "CalibrationResult": {
+            "Status": "None",
+            "ResultMessages": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "CommitAvailability": {
+            "IsAvailable": true,
+            "UnavailableReasons": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "CommitState": "Idle",
+          "CancelAvailability": {
+            "IsAvailable": true,
+            "UnavailableReasons": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "CancelState": "Idle",
+          "CalibrationId": "hello",
+          "ScopeId": "hello",
+          "Errors": [
+            { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+            { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+          ],
+          "StartAvailability": {
+            "IsAvailable": true,
+            "UnavailableReasons": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "StopAvailability": {
+            "IsAvailable": true,
+            "UnavailableReasons": [
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+              { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+            ]
+          },
+          "State": "Succeeded",
+          "Stages": [
+            { "Name": { "ID": "hello", "LocalizationID": "hello", "Data": {} }, "Status": "NotStarted" },
+            { "Name": { "ID": "hello", "LocalizationID": "hello", "Data": {} }, "Status": "NotStarted" }
+          ],
+          "LogicalZones": ["GENERAL_ZONE", "GENERAL_ZONE"],
+          "Key": { "ID": "RegularConfig" }
+        },
+        "NotificationType": "Changed"
+      }
+    },
+    {
+      "name": "Interlock / open",
+      "id": "bfbdad6c-cdb6-413d-832e-eedd14712f89",
+      "data": {
+        "resourceName": "InterlocksStateEntity",
+        "resourceContent": {
+          "PEInterlocks": { "RearFeed": "Open", "RearMiddle": "Open", "RearExit": "Open", "Front": "Open" },
+          "PWSWebHandlingInterlocks": { "Rear": "Open", "Dancer": "Open", "Dryer": "Open", "FrontExit": "Open" },
+          "PrimingInterlocks": { "Primer": "Open" },
+          "UnwinderInterlocks": { "Dancer": "Open" },
+          "RewinderInterlocks": { "Front": "Open" },
+          "PEFrontEmsReasons": [
+            { "ID": "hello", "LocalizationID": "hello", "Data": {} },
+            { "ID": "hello", "LocalizationID": "hello", "Data": {} }
+          ],
+          "Timestamp": "hello"
+        },
+        "NotificationType": "Changed"
+      }
+    },
+    {
+      "name": "blanket not in place",
+      "id": "28429162-b517-47aa-b296-d445d7dd4951",
+      "data": {
+        "resourceName": "BlanketEntity",
+        "resourceContent": {
+          "T2ToT1DistanceOffset": [5, 5],
+          "NotInPlace": true,
+          "InstalledInfo": { "SerialNumber": "hello", "ReplacementTime": "hello" },
+          "BlanketConditioningCounter": 5,
+          "Timestamp": "hello"
+        },
+        "NotificationType": "Changed"
+      }
+    }
+  ],
+  "id": "b966fa98-3487-4cc3-a980-c7bb073ac47c",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": []
+}

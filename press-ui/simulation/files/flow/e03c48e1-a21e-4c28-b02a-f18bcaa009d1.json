@@ -1,0 +1,131 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 200,
+  "waves": [
+    {
+      "id": "472b8939-613a-4f79-a80f-de6932fb9c96",
+      "name": "MonitorsEntity/Changed",
+      "data": {
+        "resourceName": "MonitorsEntity",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "ActiveMonitorID": "Operator",
+          "Monitors": [
+            {
+              "ID": "Operator",
+              "ClientID": "",
+              "OpenedProcesses": [
+                {
+                  "ProcessID": "DevTools",
+                  "State": {
+                    "index": 1,
+                    "processName": { "id": "Menu.processes.DevTools", "description": "Menu.processes.DevTools", "defaultMessage": "Menu.processes.DevTools" },
+                    "instanceID": "46b3a660-a1ac-4322-a29c-385d69c11f7d",
+                    "closeAvailability": {
+                      "unavailabilityReasons": [
+                        {
+                          "id": "services.processManager.cantRemoteClose",
+                          "defaultMessage": "services.processManager.cantRemoteClose",
+                          "description": "{processName} is open in {monitorId} monitor.{br}If you want to close it you would have to do it from there."
+                        }
+                      ],
+                      "displayClose": false,
+                      "parameters": {
+                        "monitorId": "Operator",
+                        "processName": { "id": "Menu.processes.DevTools", "description": "Menu.processes.DevTools", "defaultMessage": "Menu.processes.DevTools" }
+                      }
+                    }
+                  },
+                  "Store": {}
+                },
+                {
+                  "ProcessID": "PrintingCounters",
+                  "State": {
+                    "index": 1,
+                    "processName": { "id": "Menu.processes.PrintingCounters", "description": "Menu.processes.PrintingCounters", "defaultMessage": "Menu.processes.PrintingCounters" },
+                    "instanceID": "392edf09-2ead-462b-89c4-099bbabee54b",
+                    "Result": 0,
+                    "ProgressType": 3,
+                    "DisplayProgress": false,
+                    "closeAvailability": {
+                      "isAvailable": true,
+                      "displayClose": true,
+                      "unavailabilityReasons": [
+                        {
+                          "id": "services.processManager.remoteCloseAvailable",
+                          "defaultMessage": "services.processManager.remoteCloseAvailable",
+                          "description": "{processName} is open and running in {monitorId} monitor"
+                        }
+                      ],
+                      "parameters": {
+                        "monitorId": "Operator",
+                        "processName": { "id": "Menu.processes.PrintingCounters", "description": "Menu.processes.PrintingCounters", "defaultMessage": "Menu.processes.PrintingCounters" }
+                      }
+                    }
+                  },
+                  "Store": {}
+                },
+                {
+                  "ProcessID": "BypassCenter",
+                  "State": {
+                    "index": 1,
+                    "processName": { "id": "Menu.processes.BypassCenter", "description": "Menu.processes.BypassCenter", "defaultMessage": "Menu.processes.BypassCenter" },
+                    "instanceID": "0c5600dc-90a5-413f-bd52-85d6bb220ea2",
+                    "Result": 0,
+                    "ProgressType": 3,
+                    "DisplayProgress": false,
+                    "closeAvailability": {
+                      "isAvailable": true,
+                      "displayClose": true,
+                      "unavailabilityReasons": [
+                        {
+                          "id": "services.processManager.remoteCloseAvailable",
+                          "defaultMessage": "services.processManager.remoteCloseAvailable",
+                          "description": "{processName} is open and running in {monitorId} monitor"
+                        }
+                      ],
+                      "parameters": {
+                        "monitorId": "Operator",
+                        "processName": { "id": "Menu.processes.BypassCenter", "description": "Menu.processes.BypassCenter", "defaultMessage": "Menu.processes.BypassCenter" }
+                      }
+                    }
+                  },
+                  "Store": {}
+                },
+                {
+                  "ProcessID": "EACenter",
+                  "State": {
+                    "index": 1,
+                    "processName": { "id": "Menu.processes.EACenter", "description": "Menu.processes.EACenter", "defaultMessage": "Menu.processes.EACenter" },
+                    "instanceID": "48ffa22a-4d20-44ac-8070-93840eae7b19",
+                    "closeAvailability": {
+                      "unavailabilityReasons": [
+                        {
+                          "id": "services.processManager.cantRemoteClose",
+                          "defaultMessage": "services.processManager.cantRemoteClose",
+                          "description": "{processName} is open in {monitorId} monitor.{br}If you want to close it you would have to do it from there."
+                        }
+                      ],
+                      "displayClose": false,
+                      "parameters": {
+                        "monitorId": "Operator",
+                        "processName": { "id": "Menu.processes.EACenter", "description": "Menu.processes.EACenter", "defaultMessage": "Menu.processes.EACenter" }
+                      }
+                    }
+                  },
+                  "Store": {}
+                }
+              ]
+            }
+          ],
+          "Timestamp": "2023-08-01T14:22:21.0846391+03:00"
+        }
+      }
+    }
+  ],
+  "id": "e03c48e1-a21e-4c28-b02a-f18bcaa009d1",
+  "name": "Send Status to monitor entity",
+  "description": "initial flow description",
+  "parentTriggers": []
+}
