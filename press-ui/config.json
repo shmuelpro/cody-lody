@@ -3,7 +3,7 @@
   "Mode":"None",
   "QAMODE": false,  
   "REACT_APP_SELECTED_LOCALE": "messages-UI-dev-en-US",
-  "REACT_APP_DEV_SYSTEM": false,
+  "REACT_APP_DEV_SYSTEM": true,
   "SHOW_EM_STATE": false,
   "simulation":{
     "filesLocation":"/simulation"
