@@ -1,0 +1,27 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 2000,
+  "waves": [
+    {
+      "id": "4fa1a820-42f5-4df4-a541-bbc966d1c60a",
+      "name": "InkTubeReplacementEntity/Changed",
+      "type": "socket",
+      "data": {
+        "resourceName": "InkTubeReplacementEntity",
+        "NotificationType": "Changed",
+        "resourceContent": {
+          "SelectedInkStation": { "ID": "InkStation2" },
+          "RelevantInkStations": [],
+          "SerialNumberInfo": { "SerialNumber": "", "ConsumableType": "InkTube" },
+          "Timestamp": "2023-09-05T12:34:28.3269771+03:00"
+        }
+      }
+    }
+  ],
+  "id": "ink-tube-replacement-update-selected-ink2",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": [],
+  "dateModified": "1693909406785"
+}

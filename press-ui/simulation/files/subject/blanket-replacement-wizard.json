@@ -1,1 +1,1 @@
-{"description":"Blanket Replacement Wizard","id":"blanket-replacement-wizard","scenarios":["f534c9b8-2ca4-485c-a5dc-66e129368bae","blanket-replacement-success"],"name":"Blanket Replacement Wizard"}
+{"description":"Blanket Replacement Wizard","id":"blanket-replacement-wizard","scenarios":["bkt-replacement-failure-serial-num-scenario","blanket-replacement-success", "success-with-skip-scenario"],"name":"Blanket Replacement Wizard"}

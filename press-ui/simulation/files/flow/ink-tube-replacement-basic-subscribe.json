@@ -1,0 +1,22 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 2000,
+  "waves": [
+    {
+      "id": "c9a27613-c21e-4b1b-9693-284f4f4d90ba",
+      "name": "InkTubeReplacementEntity/Initial",
+      "type": "socket",
+      "data": {
+        "resourceName": "InkTubeReplacementEntity",
+        "NotificationType": "Initial",
+        "resourceContent": { "RelevantInkStations": [], "SerialNumberInfo": { "SerialNumber": "", "ConsumableType": "InkTube" }, "Timestamp": "2023-09-05T12:33:04.4643445+03:00" }
+      }
+    }
+  ],
+  "id": "ink-tube-replacement-basic-subscribe",
+  "name": "initial flow name",
+  "description": "initial flow description",
+  "parentTriggers": [],
+  "dateModified": "1693907038623"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Ink tube replacement basic",
+  "description": "test-scenario description",
+  "id": "ink-tube-replacement-basic",
+  "subjectId": "ink-tube-replacement",
+  "enabled": true,
+  "signals": [
+    { "id": "05fb6496-de6d-47c6-97d0-06069a439f7f", "response": 10, "host": "hp-press-api", "resource": "InkTubeReplacementEntity", "action": "get-serial-number-char-count" },
+    {
+      "id": "d51ca3b9-0b0e-4540-b8a3-84d5e93ecda4",
+      "host": "hp-press-api",
+      "resource": "InkTubeReplacementEntity",
+      "action": "update-selected-station",
+      "flows": ["ink-tube-replacement-update-selected-ink2"]
+    },
+    { "id": "58cda1a9-b31a-4316-848b-05cff97c1035", "host": "hp-press-api", "resource": "InkTubeReplacementEntity", "action": "subscribe", "flows": ["ink-tube-replacement-basic-subscribe"] }
+  ],
+  "dateModified": "1693913809756"
+}

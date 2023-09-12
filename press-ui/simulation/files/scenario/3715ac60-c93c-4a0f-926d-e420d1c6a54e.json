@@ -1,1 +1,20 @@
-{"name":"initial-wash","description":"test-scenario description","id":"3715ac60-c93c-4a0f-926d-e420d1c6a54e","subjectId":"4f54752b-321f-49b8-90db-2a5124a20056","enabled":true,"signals":[{"id":"cbdb1d0b-324a-4f6d-a101-9149d208a89c","host":"hp-press-api","resource":"BuzzerableWashOperation","action":"start","flows":["b06df69a-2c83-4db1-bcef-2c1c07f75af0","47c050c9-11ed-4869-a410-84265b4dd9b4"],"name":"dddd"},{"id":"7e9203c7-a35b-48bb-9c95-0fd78c214971","host":"hp-press-api","resource":"BuzzerableWashOperation","action":"start-buzzer","flows":["f7b24638-694e-4869-99de-f584181c8e86"]},{"id":"b85b046f-2f2c-4519-ae7a-381512604364","host":"hp-press-api","resource":"BuzzerableWashOperation","action":"subscribe","flows":["070fb6f5-d87d-4183-bb1d-df9ebb0e8096"]}]}
+{
+  "name": "initial-wash",
+  "description": "test-scenario description",
+  "id": "3715ac60-c93c-4a0f-926d-e420d1c6a54e",
+  "subjectId": "4f54752b-321f-49b8-90db-2a5124a20056",
+  "enabled": true,
+  "signals": [
+    { "id": "86d4dd4f-115c-4ae8-87fc-49306abc9fca", "host": "hp-press-api", "resource": "PWSEntity", "action": "subscribe", "flows": ["pws-subscribe"], "name": "PWS Entitiy subscribe" },
+    { "id": "cbdb1d0b-324a-4f6d-a101-9149d208a89c", "host": "hp-press-api", "resource": "BuzzerableWashOperation", "action": "start", "flows": ["start-wash"], "name": "dddd" },
+    { "id": "7e9203c7-a35b-48bb-9c95-0fd78c214971", "host": "hp-press-api", "resource": "BuzzerableWashOperation", "action": "start-buzzer", "flows": ["start-wash-buzzer"] },
+    {
+      "id": "b85b046f-2f2c-4519-ae7a-381512604364",
+      "host": "hp-press-api",
+      "resource": "BuzzerableWashOperation",
+      "action": "subscribe",
+      "flows": ["subscribe-wash"],
+      "name": "BuzzerableWashOperation subscribe"
+    }
+  ]
+}

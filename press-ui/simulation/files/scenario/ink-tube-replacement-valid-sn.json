@@ -1,0 +1,18 @@
+{
+  "name": "valid serial number",
+  "description": "test-scenario description",
+  "id": "ink-tube-replacement-valid-sn",
+  "subjectId": "ink-tube-replacement",
+  "enabled": true,
+  "signals": [
+    {
+      "id": "6dce1ae3-56dc-478a-b85a-e1c90eced613",
+      "host": "hp-press-api",
+      "resource": "InkTubeReplacementEntity",
+      "action": "validate-serial-number",
+      "flows": ["ink-tube-replacement-valid-serial-number"],
+      "response": { "InkKey": { "ID": "YELLOW" }, "Status": "Valid", "InvalidReasons": [] }
+    }
+  ],
+  "dateModified": "1693910569684"
+}
