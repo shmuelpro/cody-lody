@@ -1,38 +1,49 @@
 {
-	"simulation":{"filesLocation":"simulation","startWithDefault":true},
-	"simulationMode":"Headless",
-	"HOSTS_URL":{
+  "simulation":{"startWithDefault":true,"filesLocation":"simulation"},
+
+  
+  "REACT_APP_DEV_SYSTEM": true,
+  "SHOW_EM_STATE": false,
+  
+  "HOSTS_URL": {
     "hp-press-api": {
-        "activeURL": "http://localhost:8100",
-        "simulationEnabled": true
+      "activeURL": "http://localhost:8100",
+      "simulationEnabled": true
     },
     "hp-em-api": {
-        "activeURL": "/elementmanager",
-        "simulationEnabled": true
+      "activeURL": "/elementmanager",
+      "simulationEnabled": true
     },
     "hp-device-api": {
-        "activeURL": "/displaydevice",
-        "simulationEnabled": true
+      "activeURL": "/displaydevice"
     },
     "hp-backup-and-restore-api": {
-        "activeURL": "/backuprestore",
-        "simulationEnabled": true
+      "activeURL": "http://localhost:8250"
     },
     "installation-api": {
-        "activeURL": "",
-        "simulationEnabled": true
+      "activeURL": "http://localhost:7100"
     },
     "installer": {
-        "activeURL": "/installer",
-        "simulationEnabled": true
+      "activeURL": "/installer"
     },
     "hp-localization": {
-        "activeURL": "",
-        "simulationEnabled": true
+      "activeURL": "http://localhost:8200"
     },
     "hp-press-configuration-api": {
-        "activeURL": "/pressconfiguration",
-        "simulationEnabled": true
+      "activeURL": "http://localhost:8280",
+      "simulationEnabled": true
+    },
+    "hp-ui-service-api": {
+      "activeURL": "http://localhost:8290"
     }
-}
+  },
+  "REACT_APP_PRECISION": 2,
+  "REACT_APP_USE_LOCALIZATION_SERVER": true,
+  "REST_SERVER_URL": "http://localhost:8100",
+  "WEBSOCKET_SERVER_URL": "ws://localhost:8100/ws",
+  "API_URL": "/api",
+  "REACT_APP_TRANSLATION_LOCATION": "http://localhost:8081",
+  "devConfigVersion": "2.1",
+  "translatorFeaturesEnabled": false,
+  "simulationMode": "Headless"
 }
