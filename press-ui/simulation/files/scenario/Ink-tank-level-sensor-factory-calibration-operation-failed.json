@@ -1,0 +1,35 @@
+{
+  "name": "Ink-tank-level-sensor-factory-calibration-operation-failed",
+  "description": "Please add description",
+  "id": "Ink-tank-level-sensor-factory-calibration-operation-failed",
+  "subjectId": "Ink-tank-level-sensor",
+  "signals": [
+    {
+      "id": "SIGNAL-298-1696770683688",
+      "action": "start",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 298",
+      "resource": "InkTankLevelSensorFactoryCalibrationOperation",
+      "resourceType": "",
+      "flows": ["Ink-tank-level-sensor-factory-calibration-operation-start-failed"]
+    },
+    {
+      "id": "SIGNAL-326-1696770617280",
+      "action": "subscribe-all",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 326",
+      "resource": "InkTankLevelSensorFactoryCalibrationOperation",
+      "resourceType": "",
+      "flows": ["Ink-tank-level-sensor-factory-calibration-operation-subscribe-all"]
+    }
+  ],
+  "dateModified": "1696770748124"
+}

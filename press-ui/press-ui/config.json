@@ -1,0 +1,9 @@
+{
+  "SystemConfig":true,
+  "Mode":"None",
+  "QAMODE": false,  
+  "REACT_APP_SELECTED_LOCALE": "messages-UI-dev-en-US",
+  "REACT_APP_DEV_SYSTEM": false,
+  "SHOW_EM_STATE": false,
+  "SHOW_FAVORITES": false
+}

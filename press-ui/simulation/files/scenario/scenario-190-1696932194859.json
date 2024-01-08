@@ -1,0 +1,35 @@
+{
+  "name": "scenario 190",
+  "description": "Please add description",
+  "id": "scenario-190-1696932194859",
+  "subjectId": "main-press-control",
+  "signals": [
+    {
+      "id": "SIGNAL-374-1696933455886",
+      "action": "go-to-standby",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 374",
+      "resource": "MainPressControlEntity",
+      "resourceType": "",
+      "flows": ["flow-go-to-standby"]
+    },
+    {
+      "id": "SIGNAL-510-1696932202426",
+      "action": "start-go-to-standby-buzzer",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 510",
+      "resource": "MainPressControlEntity",
+      "resourceType": "",
+      "flows": ["standby-buzzing"]
+    }
+  ],
+  "dateModified": "1696933494172"
+}

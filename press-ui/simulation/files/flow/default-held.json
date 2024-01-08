@@ -32,6 +32,7 @@
               { "ID": 3, "Name": "Yellow", "InkInfo": { "InkName": "Yellow", "IsWhite": false, "InkCabinet": { "ID": "InkStation2" } }, "SeparationStatus": "Valid" }
             ],
             "RemainingTimeInSeconds": 2.6871794871794874,
+            "TimeEstimation": {"TotalTimeInSeconds": 10, "ElapsedTimeInSeconds": 3},
             "Timestamp": "2023-08-03T17:42:29.9078661+03:00",
             "Key": { "SMJobKey": { "ID": "3" } }
           }

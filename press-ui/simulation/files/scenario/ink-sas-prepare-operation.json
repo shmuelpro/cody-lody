@@ -1,0 +1,36 @@
+{
+  "name": "ink-sas-prepare-operation",
+  "description": "Please add description",
+  "id": "ink-sas-prepare-operation",
+  "subjectId": "rdu-ink-sas-sensor-calibration",
+  "signals": [
+    {
+      "id": "SIGNAL-911-1697619856318",
+      "action": "start",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 911",
+      "resource": "InkSasPrepareOperation",
+      "resourceType": "",
+      "flows": ["flow-741-1697619866190"]
+    },
+    {
+      "id": "SIGNAL-246-1697619691959",
+      "action": "subscribe-all",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 246",
+      "resource": "InkSasPrepareOperation",
+      "resourceType": "",
+      "flows": ["flow-250-1697619709303"]
+    }
+  ],
+  "dateCreated": "1697618322624",
+  "dateModified": "1697622438823"
+}

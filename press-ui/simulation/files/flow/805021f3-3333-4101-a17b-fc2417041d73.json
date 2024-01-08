@@ -25,6 +25,7 @@
             },
             "SubstrateName": "Paper",
             "RemainingTimeInSeconds": 2.8564102564102565,
+            "TimeEstimation": {"TotalTimeInSeconds": 10, "ElapsedTimeInSeconds": 3},
             "ListsOperationsAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
             "JobAvailability": { "AvailabilityIssues": [], "IsAvailable": true, "Timestamp": "2023-08-03T17:42:29.8709457+03:00", "Key": { "SMJobKey": { "ID": "1" } } },
             "Separations": [

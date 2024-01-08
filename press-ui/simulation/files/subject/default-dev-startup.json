@@ -1,1 +1,7 @@
-{ "description": "initial Subject description", "id": "default-dev-startup", "scenarios": ["eab7ebd9-859c-4d8a-b00f-8b377246b9b2", "default-scenario"], "name": "new new new new new " }
+{
+  "description": "initial Subject description",
+  "id": "default-dev-startup",
+  "scenarios": ["eab7ebd9-859c-4d8a-b00f-8b377246b9b2", "default-scenario"],
+  "name": "Default Scenarios",
+  "dateModified": "1695049653453"
+}

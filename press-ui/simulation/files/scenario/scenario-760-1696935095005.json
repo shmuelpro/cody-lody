@@ -1,0 +1,35 @@
+{
+  "name": "scenario 760",
+  "description": "Please add description",
+  "id": "scenario-760-1696935095005",
+  "subjectId": "unwinder",
+  "signals": [
+    {
+      "id": "SIGNAL-292-1696935418180",
+      "action": "subscribe",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 292",
+      "resource": "BuzzerableUnwinderEndReplaceRollOperation",
+      "resourceType": "",
+      "flows": ["flow-983-1696935442561"]
+    },
+    {
+      "id": "SIGNAL-336-1696935099093",
+      "action": "subscribe",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 336",
+      "resource": "UnwinderPrepareReplaceRollOperation",
+      "resourceType": "",
+      "flows": ["flow-127-1696935256906"]
+    }
+  ],
+  "dateModified": "1696935565710"
+}

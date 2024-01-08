@@ -1,0 +1,167 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 100,
+  "waves": [
+    {
+      "id": "7f926ee5-8534-4389-a54a-7a67b4cff7c1",
+      "name": "PrintQueueJobEntity/Initial",
+      "type": "socket",
+      "data": {
+        "resourceName": "PrintQueueJobEntity",
+        "NotificationType": "Initial",
+        "resourceContent": [
+          {
+            "JobDetails": {
+              "ListIndex": 0,
+              "Name": "Jungle",
+              "JobId": { "ID": "1" },
+              "Status": "loaded",
+              "Length": 5.57,
+              "NumberOfSheets": 1,
+              "NumberOfCopies": 12,
+              "PrintProgress": { "LastCopy": 0, "LastSheetInCopy": 0, "LastSheetInJob": 0 },
+              "NumberOfBlanketRotations": 1
+            },
+            "SubstrateName": "Paper",
+            "RemainingTimeInSeconds": 2.8564102564102565,
+            "ListsOperationsAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+            "JobAvailability": {
+              "AvailabilityIssues": [
+                {
+                  "IsIgnorable": true,
+                  "IsIgnored": false,
+                  "Reason": {
+                    "ID": "JobIlsAvailabilityIssue",
+                    "LocalizationID": "SE.AppDefinitions.PressMessages.Internal.JobManagement.JobAvailability.JobIlsAvailabilityIssue",
+                    "Data": { "IlsState": { "Value": "NotCalibrated", "Unit": "NoUnits" } }
+                  },
+                  "IssueType": "IlsNotAvailable"
+                }
+              ],
+              "IsAvailable": false,
+              "Timestamp": "2023-10-24T10:48:17.3698203+03:00",
+              "Key": { "SMJobKey": { "ID": "1" } }
+            },
+            "Separations": [
+              { "ID": 0, "Name": "Black", "InkInfo": { "InkName": "Black", "IsWhite": false, "InkCabinet": { "ID": "InkStation5" } }, "SeparationStatus": "Valid", "Print": true },
+              { "ID": 1, "Name": "Cyan", "InkInfo": { "InkName": "Cyan", "IsWhite": false, "InkCabinet": { "ID": "InkStation4" } }, "SeparationStatus": "Valid", "Print": true },
+              { "ID": 2, "Name": "Magenta", "InkInfo": { "InkName": "Magenta", "IsWhite": false, "InkCabinet": { "ID": "InkStation3" } }, "SeparationStatus": "Valid", "Print": true },
+              { "ID": 3, "Name": "Yellow", "InkInfo": { "InkName": "Yellow", "IsWhite": false, "InkCabinet": { "ID": "InkStation2" } }, "SeparationStatus": "Valid", "Print": false }
+            ],
+            "TimeEstimation": { "TotalTimeInSeconds": 2.8564102564102565, "ElapsedTimeInSeconds": 0 },
+            "Timestamp": "2023-10-24T10:49:55.5557512+03:00",
+            "Key": { "SMJobKey": { "ID": "1" } }
+          },
+          {
+            "JobDetails": {
+              "ListIndex": 1,
+              "Name": "Jungle2",
+              "JobId": { "ID": "2" },
+              "Status": "loaded",
+              "Length": 5.57,
+              "NumberOfSheets": 1,
+              "NumberOfCopies": 20,
+              "PrintProgress": { "LastCopy": 0, "LastSheetInCopy": 0, "LastSheetInJob": 0 },
+              "NumberOfBlanketRotations": 1
+            },
+            "SubstrateName": "Paper",
+            "RemainingTimeInSeconds": 2.8564102564102565,
+            "ListsOperationsAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+            "JobAvailability": {
+              "AvailabilityIssues": [
+                {
+                  "IsIgnorable": true,
+                  "IsIgnored": false,
+                  "Reason": {
+                    "ID": "JobIlsAvailabilityIssue",
+                    "LocalizationID": "SE.AppDefinitions.PressMessages.Internal.JobManagement.JobAvailability.JobIlsAvailabilityIssue",
+                    "Data": { "IlsState": { "Value": "NotCalibrated", "Unit": "NoUnits" } }
+                  },
+                  "IssueType": "IlsNotAvailable"
+                },
+                {
+                  "IsIgnorable": true,
+                  "IsIgnored": false,
+                  "Reason": {
+                    "ID": "JobIlsAvailabilityIssue",
+                    "LocalizationID": "SE.AppDefinitions.PressMessages.Internal.JobManagement.JobAvailability.JobIlsAvailabilityIssue",
+                    "Data": { "IlsState": { "Value": "NotCalibrated", "Unit": "NoUnits" } }
+                  },
+                  "IssueType": "ScreenMismatch"
+                },
+                {
+                  "IsIgnorable": true,
+                  "IsIgnored": false,
+                  "Reason": {
+                    "ID": "JobIlsAvailabilityIssue",
+                    "LocalizationID": "SE.AppDefinitions.PressMessages.Internal.JobManagement.JobAvailability.JobIlsAvailabilityIssue",
+                    "Data": { "IlsState": { "Value": "NotCalibrated", "Unit": "NoUnits" } }
+                  },
+                  "IssueType": "InkMismatch"
+                },
+                {
+                  "IsIgnorable": true,
+                  "IsIgnored": false,
+                  "Reason": {
+                    "ID": "JobIlsAvailabilityIssue",
+                    "LocalizationID": "SE.AppDefinitions.PressMessages.Internal.JobManagement.JobAvailability.JobIlsAvailabilityIssue",
+                    "Data": { "IlsState": { "Value": "NotCalibrated", "Unit": "NoUnits" } }
+                  },
+                  "IssueType": "SubstrateMismatch"
+                },
+                {
+                  "IsIgnorable": true,
+                  "IsIgnored": false,
+                  "Reason": {
+                    "ID": "JobIlsAvailabilityIssue",
+                    "LocalizationID": "SE.AppDefinitions.PressMessages.Internal.JobManagement.JobAvailability.JobIlsAvailabilityIssue",
+                    "Data": { "IlsState": { "Value": "NotCalibrated", "Unit": "NoUnits" } }
+                  },
+                  "IssueType": "SpmNotAvailable"
+                },
+                {
+                  "IsIgnorable": true,
+                  "IsIgnored": false,
+                  "Reason": {
+                    "ID": "JobIlsAvailabilityIssue",
+                    "LocalizationID": "SE.AppDefinitions.PressMessages.Internal.JobManagement.JobAvailability.JobIlsAvailabilityIssue",
+                    "Data": { "IlsState": { "Value": "NotCalibrated", "Unit": "NoUnits" } }
+                  },
+                  "IssueType": "ExceedsMaxBlanketRotations"
+                },
+                {
+                  "IsIgnorable": true,
+                  "IsIgnored": false,
+                  "Reason": {
+                    "ID": "JobIlsAvailabilityIssue",
+                    "LocalizationID": "SE.AppDefinitions.PressMessages.Internal.JobManagement.JobAvailability.JobIlsAvailabilityIssue",
+                    "Data": { "IlsState": { "Value": "NotCalibrated", "Unit": "NoUnits" } }
+                  },
+                  "IssueType": "ExceedsMaxInkCoverage"
+                }
+              ],
+              "IsAvailable": false,
+              "Timestamp": "2023-10-24T10:48:17.3698203+03:00",
+              "Key": { "SMJobKey": { "ID": "1" } }
+            },
+            "Separations": [
+              { "ID": 0, "Name": "Black", "InkInfo": { "InkName": "Black", "IsWhite": false, "InkCabinet": { "ID": "InkStation5" } }, "SeparationStatus": "Valid", "Print": true },
+              { "ID": 1, "Name": "Cyan", "InkInfo": { "InkName": "Cyan", "IsWhite": false, "InkCabinet": { "ID": "InkStation4" } }, "SeparationStatus": "Valid", "Print": true },
+              { "ID": 2, "Name": "Magenta", "InkInfo": { "InkName": "Magenta", "IsWhite": false, "InkCabinet": { "ID": "InkStation3" } }, "SeparationStatus": "Valid", "Print": true },
+              { "ID": 3, "Name": "Yellow", "InkInfo": { "InkName": "Yellow", "IsWhite": false, "InkCabinet": { "ID": "InkStation2" } }, "SeparationStatus": "Valid", "Print": false }
+            ],
+            "TimeEstimation": { "TotalTimeInSeconds": 2.8564102564102565, "ElapsedTimeInSeconds": 0 },
+            "Timestamp": "2023-10-24T10:49:55.5557512+03:00",
+            "Key": { "SMJobKey": { "ID": 2 } }
+          }
+        ]
+      },
+      "customWait": 2000
+    }
+  ],
+  "id": "flow-683-1698136223445",
+  "name": "flow 683",
+  "description": "initial flow description",
+  "dateModified": "1698141307746"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "scenario 702",
+  "description": "Please add description",
+  "id": "scenario-702-1696937999070",
+  "subjectId": "rewinder",
+  "signals": [
+    {
+      "id": "SIGNAL-293-1697013216629",
+      "action": "start-buzzer",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 293",
+      "resource": "BuzzerableRewinderEndReplaceRollOperation",
+      "resourceType": "",
+      "flows": ["flow-650-1697104217540"]
+    },
+    {
+      "id": "SIGNAL-0-1696938372695",
+      "action": "start",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 0",
+      "resource": "BuzzerableRewinderEndReplaceRollOperation",
+      "resourceType": "",
+      "flows": ["flow-934-1696938383430"]
+    },
+    {
+      "id": "SIGNAL-146-1696938002556",
+      "action": "start",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 146",
+      "resource": "RewinderPrepareReplaceRollOperation",
+      "resourceType": "",
+      "flows": ["flow-852-1696938018499"]
+    }
+  ],
+  "dateModified": "1697104217555"
+}

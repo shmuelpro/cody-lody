@@ -1,0 +1,35 @@
+{
+  "name": "scenario 260",
+  "description": "Please add description",
+  "id": "scenario-260-1696937599827",
+  "subjectId": "rewinder",
+  "signals": [
+    {
+      "id": "SIGNAL-618-1696935546451",
+      "action": "subscribe",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 618",
+      "resource": "BuzzerableRewinderEndReplaceRollOperation",
+      "resourceType": "",
+      "flows": ["flow-644-1696935565705"]
+    },
+    {
+      "id": "SIGNAL-226-1696935483592",
+      "action": "subscribe",
+      "response": "",
+      "subscriptionId": "",
+      "description": "No Description",
+      "method": "",
+      "host": "hp-press-api",
+      "name": "SIGNAL 226",
+      "resource": "RewinderPrepareReplaceRollOperation",
+      "resourceType": "",
+      "flows": ["flow-614-1696935499137"]
+    }
+  ],
+  "dateModified": "1696937603419"
+}

@@ -1,0 +1,86 @@
+{
+  "repeat": false,
+  "random": false,
+  "durationBetweenWaves": 100,
+  "waves": [
+    {
+      "name": "Ink-tank-service-sequence-mode-operation-state-in-progress",
+      "id": "Ink-tank-service-sequence-mode-operation-state-in-progress",
+      "data": {
+        "resourceName": "InkTankLevelSensorServiceSequenceModeOperation",
+        "resourceContent": {
+          "ChainedLogicalZonesParentOperationDummy": false,
+          "IsReady": false,
+          "CalibrationState": "OperationInProgress",
+          "CalibrationResult": { "Status": "None", "ResultMessages": [] },
+          "CommitAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CommitState": "Idle",
+          "CancelAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "CancelState": "Idle",
+          "CalibrationId": "1d8e0a33-4098-4d43-a44b-67ecf1dbc3e5",
+          "ScopeId": "32e97d80-1b5e-4b49-8199-d0fb597884f2",
+          "Stages": [
+            { "Name": { "ID": "ServiceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.ServiceChained", "Data": {} }, "Status": "Succeeded" },
+            { "Name": { "ID": "SequenceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.SequenceChained", "Data": {} }, "Status": "InProgress" }
+          ],
+          "LogicalZones": [],
+          "CalibrationOperationDummy": false,
+          "Errors": [],
+          "StartAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationInProgress", "Data": {} }]
+          },
+          "StopAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "State": "InProgress"
+        },
+        "NotificationType": "Changed"
+      }
+    },
+    {
+      "name": "Ink-tank-service-sequence-mode-operation-state-failed",
+      "id": "Ink-tank-service-sequence-mode-operation-state-failed",
+      "data": {
+        "resourceName": "InkTankLevelSensorServiceSequenceModeOperation",
+        "resourceContent": {
+          "ChainedLogicalZonesParentOperationDummy": false,
+          "IsReady": false,
+          "CalibrationState": "OperationCompleted",
+          "CalibrationResult": { "Status": "None", "ResultMessages": [] },
+          "CommitAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "CommitState": "Idle",
+          "CancelAvailability": { "IsAvailable": true, "UnavailableReasons": [] },
+          "CancelState": "Idle",
+          "CalibrationId": "1d8e0a33-4098-4d43-a44b-67ecf1dbc3e5",
+          "ScopeId": "32e97d80-1b5e-4b49-8199-d0fb597884f2",
+          "Stages": [
+            { "Name": { "ID": "ServiceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.ServiceChained", "Data": {} }, "Status": "Failed" },
+            { "Name": { "ID": "SequenceChained", "LocalizationID": "SE.AppDefinitions.PressMessages.ChainedOperations.SequenceChained", "Data": {} }, "Status": "NotStarted" }
+          ],
+          "LogicalZones": [],
+          "CalibrationOperationDummy": false,
+          "Errors": [],
+          "StartAvailability": {
+            "IsAvailable": true,
+            "UnavailableReasons": []
+          },
+          "StopAvailability": {
+            "IsAvailable": false,
+            "UnavailableReasons": [{ "ID": "OperationNotInProgress", "LocalizationID": "SE.AppDefinitions.PressMessages.General.OperationNotInProgress", "Data": {} }]
+          },
+          "State": "Failed"
+        },
+        "NotificationType": "Changed"
+      }
+    }
+  ],
+  "id": "Ink-tank-service-sequence-mode-operation-start-failed",
+  "name": "Ink-tank-service-sequence-mode-operation-start-failed",
+  "description": "initial flow description",
+  "dateModified": "1696768845129"
+}

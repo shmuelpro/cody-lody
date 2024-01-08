@@ -1,0 +1,14 @@
+{
+  "description": "Ink tank level sensor calibration base",
+  "id": "Ink-tank-level-sensor",
+  "scenarios": [
+    "Ink-tank-level-sensor-factory-calibration-operation-failed",
+    "Ink-tank-service-sequence-mode-operation-failed",
+    "Ink-tank-level-sensor-last-calibration",
+    "Ink-tank-level-sensor-ambient-calibration-operation",
+    "Ink-tank-level-sensor-factory-calibration-operation",
+    "Ink-tank-service-sequence-mode-operation"
+  ],
+  "name": "Ink tank level sensor calibration",
+  "dateModified": "1696770610547"
+}
