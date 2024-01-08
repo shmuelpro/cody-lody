@@ -1,5 +1,5 @@
 {
-	"simulation":{"filesLocation":"simulation"},
+	"simulation":{"filesLocation":"simulation","startWithDefault":true},
 	"simulationMode":"Headless",
 	"HOSTS_URL":{
     "hp-press-api": {
